@@ -37,8 +37,6 @@ layout: default
             {% include cv/time_table.liquid %}
           {% elsif entry.type == 'list_groups' %}
             {% include cv/list_groups.liquid %}
-          {% elsif entry.type == 'bib' %}
-            {% include ../_layouts/bib.liquid %}
           {% else %}
             {{ entry.contents }}
           {% endif %}
