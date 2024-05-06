@@ -10,4 +10,4 @@ toc:
   sidebar: left
 ---
 
-<div> <embed src="../assets/cv.pdf" width="960" height="1024" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html"> </div>
+<div> <embed src="../assets/pdf/cv.pdf" width="960" height="1024" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html"> </div>
