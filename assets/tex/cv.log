@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.7)  6 MAY 2024 17:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.7)  6 MAY 2024 18:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -745,12 +745,7 @@ fd)
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd
-)
-Overfull \hbox (38.73958pt too wide) in alignment at lines 154--154
-[][] 
- []
-
-[1
+) [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/lo
@@ -814,7 +809,7 @@ Package logreq Info: Writing requests to 'cv.run.xml'.
 Here is how much of TeX's memory you used:
  20852 strings out of 476047
  381430 string characters out of 5790254
- 1869248 words of memory out of 5000000
+ 1868248 words of memory out of 5000000
  41055 multiletter control sequences out of 15000+600000
  518320 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -831,7 +826,7 @@ public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pub
 lic/cm-super/sfrm1200.pfb>
-Output written on cv.pdf (3 pages, 152044 bytes).
+Output written on cv.pdf (3 pages, 151620 bytes).
 PDF statistics:
  136 PDF objects out of 1000 (max. 8388607)
  101 compressed objects within 2 object streams

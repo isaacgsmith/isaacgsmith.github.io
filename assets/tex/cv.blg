@@ -1,27 +1,27 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'cv.blg'
-[76] biber:340> INFO - === Mon May  6, 2024, 17:47:52
-[90] Biber.pm:419> INFO - Reading 'cv.bcf'
-[145] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[145] Biber.pm:976> INFO - Using all citekeys in bib section 1
-[145] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[145] Biber.pm:976> INFO - Using all citekeys in bib section 2
-[145] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[165] Biber.pm:4419> INFO - Processing section 1
-[173] Biber.pm:4610> INFO - Looking for bibtex file '../../_bibliography/papers.bib' for section 1
-[174] bibtex.pm:1713> INFO - LaTeX decoding ...
-[177] bibtex.pm:1519> INFO - Found BibTeX data source '../../_bibliography/papers.bib'
-[236] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[236] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[236] Biber.pm:4239> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'en-US'
-[236] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[241] Biber.pm:4419> INFO - Processing section 2
-[242] Biber.pm:4610> INFO - Looking for bibtex file '../../_bibliography/papers.bib' for section 2
-[283] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[283] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[283] Biber.pm:4239> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'en-US'
-[283] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[285] bbl.pm:660> INFO - Writing 'cv.bbl' with encoding 'UTF-8'
-[303] bbl.pm:763> INFO - Output to cv.bbl
-[303] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_ysiY/4cba211c7098ce6d56874590d4a06a86_12.utf8, line 4, warning: 6 characters of junk seen at toplevel
-[303] Biber.pm:133> INFO - WARNINGS: 1
+[74] biber:340> INFO - === Mon May  6, 2024, 18:08:27
+[86] Biber.pm:419> INFO - Reading 'cv.bcf'
+[142] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[142] Biber.pm:976> INFO - Using all citekeys in bib section 1
+[142] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[142] Biber.pm:976> INFO - Using all citekeys in bib section 2
+[142] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[162] Biber.pm:4419> INFO - Processing section 1
+[171] Biber.pm:4610> INFO - Looking for bibtex file '../../_bibliography/papers.bib' for section 1
+[171] bibtex.pm:1713> INFO - LaTeX decoding ...
+[174] bibtex.pm:1519> INFO - Found BibTeX data source '../../_bibliography/papers.bib'
+[233] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[234] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[234] Biber.pm:4239> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'en-US'
+[234] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[239] Biber.pm:4419> INFO - Processing section 2
+[239] Biber.pm:4610> INFO - Looking for bibtex file '../../_bibliography/papers.bib' for section 2
+[281] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[281] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[281] Biber.pm:4239> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'en-US'
+[281] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[284] bbl.pm:660> INFO - Writing 'cv.bbl' with encoding 'UTF-8'
+[302] bbl.pm:763> INFO - Output to cv.bbl
+[302] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_uBJ1/4cba211c7098ce6d56874590d4a06a86_12.utf8, line 4, warning: 6 characters of junk seen at toplevel
+[302] Biber.pm:133> INFO - WARNINGS: 1
