@@ -67,6 +67,7 @@ jobs:
           root_file: cv
           working_directory: ./assets/tex/
           args: -f -pdf -latexoption=-file-line-error -latexoption=-interaction=nonstopmode
+        continue-on-error: true
       - name: Move and commit CV
         run: mv ./assets/tex/cv.pdf ./assets/pdf/cv.pdf && git add -A && git diff-index --quiet HEAD || git commit -m "updating CV pdf"
       - name: Setup Ruby
