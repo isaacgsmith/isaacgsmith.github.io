@@ -61,6 +61,13 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
+      - name: Build CV
+        uses: dante-ev/latex-action@latest
+        with:
+          root_file: cv
+          working_directory: ./assets/tex/
+      - name: Move and commit CV
+        run: mv ./assets/tex/cv.pdf ./assets/pdf/cv.pdf && git add -A && git diff-index --quiet HEAD || git commit -m "updating CV pdf"
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
