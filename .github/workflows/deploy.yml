@@ -69,7 +69,7 @@ jobs:
           args: -f -pdf -latexoption=-file-line-error -latexoption=-interaction=nonstopmode
         continue-on-error: true
       - name: Move and commit CV
-        run: mv ./assets/tex/cv.pdf ./assets/pdf/cv.pdf && git add -A && git diff-index --quiet HEAD || git commit -m "updating CV pdf" --author="Isaac Smith <smithis7@msu.edu>"
+        run: mv ./assets/tex/cv.pdf ./assets/pdf/cv.pdf && git add -A && git diff-index --quiet HEAD || git config --global user.email "smithis7@msu.edu" && git config --global user.name "Isaac Smith" && git commit -m "updating CV pdf" --author="Isaac Smith <smithis7@msu.edu>"
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
