@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.7)  6 MAY 2024 20:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.7)  7 MAY 2024 03:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -748,14 +748,14 @@ fd)
 )
 \blx@maxsegment@1=\count424
 \blx@sectionciteorder@1=\count425
-Package biblatex Info: Reference section=1 on input line 190.
-Package biblatex Info: Setting label 'refsection:1' on input line 190.
+Package biblatex Info: Reference section=1 on input line 192.
+Package biblatex Info: Setting label 'refsection:1' on input line 192.
 
-./cv.tex:192: Misplaced alignment tab character &.
+./cv.tex:194: Misplaced alignment tab character &.
 <argument> Astronomy &
                       amp; Astrophysics
-l.192 \printbibliography[heading=none]
-                                      
+l.194 ...ography[heading=none, nottype=conference]
+                                                  
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -763,22 +763,19 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-Package biblatex Info: Reference section=0 on input line 193.
-\blx@maxsegment@2=\count426
-\blx@sectionciteorder@2=\count427
-Package biblatex Info: Reference section=2 on input line 200.
-Package biblatex Info: Setting label 'refsection:2' on input line 200.
-./cv.tex:202: Misplaced alignment tab character &.
-<argument> Astronomy &
-                      amp; Astrophysics
-l.202 \printbibliography[heading=none]
-                                      
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
+Package biblatex Info: Reference section=0 on input line 195.
+
+./cv.tex:202: LaTeX Error: Environment hangparas undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.202 \begin{hangparas}
+                       {.25in}{1}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 [1
 
@@ -787,18 +784,27 @@ al/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/lo
 cal/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/loc
 al/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/loca
 l/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-Package biblatex Info: Reference section=0 on input line 203.
 
-Underfull \hbox (badness 10000) in alignment at lines 253--253
+./cv.tex:210: LaTeX Error: \begin{document} ended by \end{hangparas}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210 \end{hangparas}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in alignment at lines 260--260
 [][]
  []
 
 [2] (./cv.aux)
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: FD749A93CA987920E19F6F8277D32151;1036.
@@ -811,13 +817,13 @@ Package logreq Info: Writing requests to 'cv.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20851 strings out of 476047
- 381424 string characters out of 5790254
+ 20834 strings out of 476047
+ 381011 string characters out of 5790254
  1873248 words of memory out of 5000000
- 41055 multiletter control sequences out of 15000+600000
+ 41039 multiletter control sequences out of 15000+600000
  518320 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,11n,68p,1191b,1393s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 63i,11n,68p,1191b,1347s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/fontawesome5/FontAweso
 me5Brands-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/fo
 ntawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2023/texmf-dist/fonts
@@ -830,10 +836,10 @@ public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pub
 lic/cm-super/sfrm1200.pfb>
-Output written on cv.pdf (2 pages, 152747 bytes).
+Output written on cv.pdf (2 pages, 158465 bytes).
 PDF statistics:
- 135 PDF objects out of 1000 (max. 8388607)
- 100 compressed objects within 1 object stream
- 13 named destinations out of 1000 (max. 500000)
+ 129 PDF objects out of 1000 (max. 8388607)
+ 95 compressed objects within 1 object stream
+ 12 named destinations out of 1000 (max. 500000)
  65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
