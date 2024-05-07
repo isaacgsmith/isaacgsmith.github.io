@@ -1,32 +1,32 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'cv.blg'
-[76] biber:340> INFO - === Tue May  7, 2024, 04:22:17
-[88] Biber.pm:419> INFO - Reading 'cv.bcf'
-[144] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[144] Biber.pm:976> INFO - Using all citekeys in bib section 1
-[144] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[145] Biber.pm:976> INFO - Using all citekeys in bib section 2
-[145] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[165] Biber.pm:4419> INFO - Processing section 1
-[174] Biber.pm:4610> INFO - Looking for bibtex file '../../_bibliography/papers.bib' for section 1
-[174] bibtex.pm:1713> INFO - LaTeX decoding ...
-[177] bibtex.pm:1519> INFO - Found BibTeX data source '../../_bibliography/papers.bib'
-[236] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[236] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[236] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[236] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[241] Biber.pm:4419> INFO - Processing section 2
-[241] Biber.pm:4610> INFO - Looking for bibtex file '../../_bibliography/posters.bib' for section 2
-[242] bibtex.pm:1713> INFO - LaTeX decoding ...
-[244] bibtex.pm:1519> INFO - Found BibTeX data source '../../_bibliography/posters.bib'
-[261] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[261] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[261] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[262] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[264] bbl.pm:660> INFO - Writing 'cv.bbl' with encoding 'UTF-8'
-[271] bbl.pm:763> INFO - Output to cv.bbl
-[271] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_G4_j/4cba211c7098ce6d56874590d4a06a86_13.utf8, line 4, warning: 6 characters of junk seen at toplevel
-[271] Biber.pm:131> WARN - legacy year field 'July 26, 2023' in entry 'imsrg' is not an integer - this will probably not sort properly.
-[271] Biber.pm:131> WARN - legacy year field 'July 28, 2021' in entry 'documentation' is not an integer - this will probably not sort properly.
-[271] Biber.pm:131> WARN - legacy year field 'April 14, 2023' in entry 'stardis' is not an integer - this will probably not sort properly.
-[271] Biber.pm:133> INFO - WARNINGS: 4
+[74] biber:340> INFO - === Tue May  7, 2024, 04:35:07
+[87] Biber.pm:419> INFO - Reading 'cv.bcf'
+[142] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[142] Biber.pm:976> INFO - Using all citekeys in bib section 1
+[143] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[143] Biber.pm:976> INFO - Using all citekeys in bib section 2
+[143] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[162] Biber.pm:4419> INFO - Processing section 1
+[171] Biber.pm:4610> INFO - Looking for bibtex file '../../_bibliography/papers.bib' for section 1
+[172] bibtex.pm:1713> INFO - LaTeX decoding ...
+[174] bibtex.pm:1519> INFO - Found BibTeX data source '../../_bibliography/papers.bib'
+[232] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[232] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[233] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[233] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[237] Biber.pm:4419> INFO - Processing section 2
+[238] Biber.pm:4610> INFO - Looking for bibtex file '../../_bibliography/posters.bib' for section 2
+[238] bibtex.pm:1713> INFO - LaTeX decoding ...
+[241] bibtex.pm:1519> INFO - Found BibTeX data source '../../_bibliography/posters.bib'
+[257] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[257] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[257] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[257] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[260] bbl.pm:660> INFO - Writing 'cv.bbl' with encoding 'UTF-8'
+[267] bbl.pm:763> INFO - Output to cv.bbl
+[267] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_1xCx/4cba211c7098ce6d56874590d4a06a86_13.utf8, line 4, warning: 6 characters of junk seen at toplevel
+[267] Biber.pm:131> WARN - legacy year field 'April 14, 2023' in entry 'stardis' is not an integer - this will probably not sort properly.
+[267] Biber.pm:131> WARN - legacy year field 'July 28, 2021' in entry 'documentation' is not an integer - this will probably not sort properly.
+[267] Biber.pm:131> WARN - legacy year field 'July 26, 2023' in entry 'imsrg' is not an integer - this will probably not sort properly.
+[267] Biber.pm:133> INFO - WARNINGS: 4
