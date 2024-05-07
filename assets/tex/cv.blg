@@ -1,19 +1,32 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'cv.blg'
-[74] biber:340> INFO - === Tue May  7, 2024, 03:14:34
-[86] Biber.pm:419> INFO - Reading 'cv.bcf'
-[141] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[141] Biber.pm:976> INFO - Using all citekeys in bib section 1
-[141] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[156] Biber.pm:4419> INFO - Processing section 1
-[165] Biber.pm:4610> INFO - Looking for bibtex file '../../_bibliography/papers.bib' for section 1
-[166] bibtex.pm:1713> INFO - LaTeX decoding ...
-[168] bibtex.pm:1519> INFO - Found BibTeX data source '../../_bibliography/papers.bib'
-[227] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[227] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[227] Biber.pm:4239> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'en-US'
-[227] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[233] bbl.pm:660> INFO - Writing 'cv.bbl' with encoding 'UTF-8'
-[242] bbl.pm:763> INFO - Output to cv.bbl
-[242] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp__GjV/4cba211c7098ce6d56874590d4a06a86_12.utf8, line 4, warning: 6 characters of junk seen at toplevel
-[242] Biber.pm:133> INFO - WARNINGS: 1
+[73] biber:340> INFO - === Tue May  7, 2024, 03:27:24
+[85] Biber.pm:419> INFO - Reading 'cv.bcf'
+[140] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[140] Biber.pm:976> INFO - Using all citekeys in bib section 1
+[140] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[140] Biber.pm:976> INFO - Using all citekeys in bib section 2
+[140] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[160] Biber.pm:4419> INFO - Processing section 1
+[168] Biber.pm:4610> INFO - Looking for bibtex file '../../_bibliography/papers.bib' for section 1
+[169] bibtex.pm:1713> INFO - LaTeX decoding ...
+[172] bibtex.pm:1519> INFO - Found BibTeX data source '../../_bibliography/papers.bib'
+[230] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[230] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[230] Biber.pm:4239> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'en-US'
+[230] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[235] Biber.pm:4419> INFO - Processing section 2
+[236] Biber.pm:4610> INFO - Looking for bibtex file '../../_bibliography/posters.bib' for section 2
+[236] bibtex.pm:1713> INFO - LaTeX decoding ...
+[239] bibtex.pm:1519> INFO - Found BibTeX data source '../../_bibliography/posters.bib'
+[255] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[255] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[255] Biber.pm:4239> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'en-US'
+[255] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[257] bbl.pm:660> INFO - Writing 'cv.bbl' with encoding 'UTF-8'
+[267] bbl.pm:763> INFO - Output to cv.bbl
+[267] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_JL6G/4cba211c7098ce6d56874590d4a06a86_13.utf8, line 4, warning: 6 characters of junk seen at toplevel
+[267] Biber.pm:131> WARN - legacy month field 'July 28' in entry 'documentation' is not an integer - this will probably not sort properly.
+[267] Biber.pm:131> WARN - legacy month field 'July 26' in entry 'imsrg' is not an integer - this will probably not sort properly.
+[267] Biber.pm:131> WARN - legacy month field 'April 14' in entry 'stardis' is not an integer - this will probably not sort properly.
+[268] Biber.pm:133> INFO - WARNINGS: 4

@@ -232,5 +232,105 @@
     \endentry
   \enddatalist
 \endrefsection
+
+\refsection{2}
+  \datalist[entry]{ynt/global//global/global}
+    \entry{documentation}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7e3d3bf557f8baeb8ec9688fea703246}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Isaac\bibnamedelima G.},
+           giveni={I\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {East Lansing, MI}%
+      }
+      \strng{namehash}{7e3d3bf557f8baeb8ec9688fea703246}
+      \strng{fullhash}{7e3d3bf557f8baeb8ec9688fea703246}
+      \strng{bibnamehash}{7e3d3bf557f8baeb8ec9688fea703246}
+      \strng{authorbibnamehash}{7e3d3bf557f8baeb8ec9688fea703246}
+      \strng{authornamehash}{7e3d3bf557f8baeb8ec9688fea703246}
+      \strng{authorfullhash}{7e3d3bf557f8baeb8ec9688fea703246}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Mid-Michigan Symposium for Undergraduate Research}
+      \field{month}{7}
+      \field{title}{Interactive and User-Friendly Methods for Documenting Code}
+      \field{year}{2021}
+      \true{nocite}
+    \endentry
+    \entry{stardis}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7e3d3bf557f8baeb8ec9688fea703246}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Isaac\bibnamedelima G.},
+           giveni={I\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {East Lansing, MI}%
+      }
+      \strng{namehash}{7e3d3bf557f8baeb8ec9688fea703246}
+      \strng{fullhash}{7e3d3bf557f8baeb8ec9688fea703246}
+      \strng{bibnamehash}{7e3d3bf557f8baeb8ec9688fea703246}
+      \strng{authorbibnamehash}{7e3d3bf557f8baeb8ec9688fea703246}
+      \strng{authornamehash}{7e3d3bf557f8baeb8ec9688fea703246}
+      \strng{authorfullhash}{7e3d3bf557f8baeb8ec9688fea703246}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{University Undergraduate Research and Arts Forum}
+      \field{month}{4}
+      \field{title}{A New Approach to Synthetic Stellar Spectra: The STARDIS Radiative Transfer Code}
+      \field{year}{2023}
+      \true{nocite}
+    \endentry
+    \entry{imsrg}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7e3d3bf557f8baeb8ec9688fea703246}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Isaac\bibnamedelima G.},
+           giveni={I\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {East Lansing, MI}%
+      }
+      \strng{namehash}{7e3d3bf557f8baeb8ec9688fea703246}
+      \strng{fullhash}{7e3d3bf557f8baeb8ec9688fea703246}
+      \strng{bibnamehash}{7e3d3bf557f8baeb8ec9688fea703246}
+      \strng{authorbibnamehash}{7e3d3bf557f8baeb8ec9688fea703246}
+      \strng{authornamehash}{7e3d3bf557f8baeb8ec9688fea703246}
+      \strng{authorfullhash}{7e3d3bf557f8baeb8ec9688fea703246}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Mid-Michigan Symposium for Undergraduate Research}
+      \field{month}{7}
+      \field{title}{Studying Nuclei at Finite Temperature with the In-Medium Similarity Renormalization Group}
+      \field{year}{2023}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
