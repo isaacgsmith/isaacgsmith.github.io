@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.7)  7 MAY 2024 04:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.7)  7 MAY 2024 04:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -750,31 +750,17 @@ fd)
 \blx@sectionciteorder@1=\count425
 Package biblatex Info: Reference section=1 on input line 193.
 Package biblatex Info: Setting label 'refsection:1' on input line 193.
-
-./cv.tex:195: Misplaced alignment tab character &.
-<argument> Astronomy &
-                      amp; Astrophysics
-l.195 \printbibliography[heading=none]
-                                      
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
 Package biblatex Info: Reference section=0 on input line 196.
 \blx@maxsegment@2=\count426
 \blx@sectionciteorder@2=\count427
 Package biblatex Info: Reference section=2 on input line 203.
 Package biblatex Info: Setting label 'refsection:2' on input line 203.
-[1
+ [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/lo
 cal/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/loc
-al/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/loca
-l/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+al/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}]
 Package biblatex Info: Reference section=0 on input line 206.
 
 Underfull \hbox (badness 10000) in alignment at lines 256--256
@@ -782,28 +768,18 @@ Underfull \hbox (badness 10000) in alignment at lines 256--256
  []
 
 [2] (./cv.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: FD749A93CA987920E19F6F8277D32151;1036.
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'cv.run.xml'.
 \openout1 = `cv.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20864 strings out of 476047
- 381924 string characters out of 5790254
+ 20865 strings out of 476047
+ 381927 string characters out of 5790254
  1873248 words of memory out of 5000000
- 41066 multiletter control sequences out of 15000+600000
- 518320 words of font info for 52 fonts, out of 8000000 for 9000
+ 41069 multiletter control sequences out of 15000+600000
+ 517983 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,11n,68p,1191b,1467s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/fontawesome5/FontAweso
@@ -816,12 +792,11 @@ pe1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pub
-lic/cm-super/sfrm1200.pfb>
-Output written on cv.pdf (2 pages, 156574 bytes).
+blic/amsfonts/cm/cmtt12.pfb>
+Output written on cv.pdf (2 pages, 150071 bytes).
 PDF statistics:
- 133 PDF objects out of 1000 (max. 8388607)
- 99 compressed objects within 1 object stream
+ 128 PDF objects out of 1000 (max. 8388607)
+ 96 compressed objects within 1 object stream
  15 named destinations out of 1000 (max. 500000)
  65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
