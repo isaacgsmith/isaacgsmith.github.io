@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.7)  7 MAY 2024 03:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.7)  7 MAY 2024 04:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -799,10 +799,10 @@ Package logreq Info: Writing requests to 'cv.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20865 strings out of 476047
- 381934 string characters out of 5790254
+ 20864 strings out of 476047
+ 381924 string characters out of 5790254
  1873248 words of memory out of 5000000
- 41067 multiletter control sequences out of 15000+600000
+ 41066 multiletter control sequences out of 15000+600000
  518320 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,11n,68p,1191b,1467s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -818,7 +818,7 @@ public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pub
 lic/cm-super/sfrm1200.pfb>
-Output written on cv.pdf (2 pages, 156591 bytes).
+Output written on cv.pdf (2 pages, 156574 bytes).
 PDF statistics:
  133 PDF objects out of 1000 (max. 8388607)
  99 compressed objects within 1 object stream
