@@ -753,6 +753,11 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome5/ufontawesomefree
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/fontawesome5/fa5free1solid.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands1.fd
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands1.fd
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands1.fd
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands1.fd
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/fontawesome5/fa5brands1.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd
@@ -767,6 +772,7 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
 INPUT /usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc
 INPUT cv.aux
 INPUT ./cv.out

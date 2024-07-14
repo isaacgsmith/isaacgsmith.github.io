@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.7)  21 JUN 2024 01:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.7)  14 JUL 2024 21:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -744,26 +744,29 @@ Package hyperref Info: Link coloring ON on input line 77.
 fd)
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd
 )
+(/usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands1.
+fd)
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd
 )
 \blx@maxsegment@1=\count424
 \blx@sectionciteorder@1=\count425
-Package biblatex Info: Reference section=1 on input line 193.
-Package biblatex Info: Setting label 'refsection:1' on input line 193.
-Package biblatex Info: Reference section=0 on input line 196.
+Package biblatex Info: Reference section=1 on input line 194.
+Package biblatex Info: Setting label 'refsection:1' on input line 194.
+Package biblatex Info: Reference section=0 on input line 197.
 \blx@maxsegment@2=\count426
 \blx@sectionciteorder@2=\count427
-Package biblatex Info: Reference section=2 on input line 203.
-Package biblatex Info: Setting label 'refsection:2' on input line 203.
+Package biblatex Info: Reference section=2 on input line 204.
+Package biblatex Info: Setting label 'refsection:2' on input line 204.
  [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/lo
 cal/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/loc
-al/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}]
-Package biblatex Info: Reference section=0 on input line 206.
+al/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc}{/usr/lo
+cal/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}]
+Package biblatex Info: Reference section=0 on input line 207.
 
-Underfull \hbox (badness 10000) in alignment at lines 256--256
+Underfull \hbox (badness 10000) in alignment at lines 257--257
 [][]
  []
 
@@ -775,11 +778,11 @@ Package logreq Info: Writing requests to 'cv.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20865 strings out of 476047
- 381927 string characters out of 5790254
+ 20890 strings out of 476047
+ 382819 string characters out of 5790254
  1874248 words of memory out of 5000000
- 41069 multiletter control sequences out of 15000+600000
- 517983 words of font info for 51 fonts, out of 8000000 for 9000
+ 41088 multiletter control sequences out of 15000+600000
+ 518244 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,11n,68p,1191b,1467s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/fontawesome5/FontAweso
@@ -793,10 +796,10 @@ pe1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type
 public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmtt12.pfb>
-Output written on cv.pdf (2 pages, 149591 bytes).
+Output written on cv.pdf (2 pages, 165863 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
- 96 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
+ 139 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
+ 16 named destinations out of 1000 (max. 500000)
  65 words of extra memory for PDF output out of 10000 (max. 10000000)
 

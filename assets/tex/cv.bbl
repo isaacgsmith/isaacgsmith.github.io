@@ -201,6 +201,51 @@
       \verb http://dx.doi.org/10.1051/0004-6361/202244134
       \endverb
     \endentry
+    \entry{smith2024inmediumsimilarityrenormalizationgroup}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=7e3d3bf557f8baeb8ec9688fea703246}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Isaac\bibnamedelima G.},
+           giveni={I\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=95131d534e7de601968f5edbce396d58}{%
+           family={Hergert},
+           familyi={H\bibinitperiod},
+           given={Heiko},
+           giveni={H\bibinitperiod}}}%
+        {{hash=14f18e0cf613c0412c01e7d430d071ba}{%
+           family={Bogner},
+           familyi={B\bibinitperiod},
+           given={Scott\bibnamedelima K.},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{208a60284b260e33cc63fdaf2252df85}
+      \strng{fullhash}{208a60284b260e33cc63fdaf2252df85}
+      \strng{bibnamehash}{c6e95753c6bb74903b4d84692e5d2aca}
+      \strng{authorbibnamehash}{c6e95753c6bb74903b4d84692e5d2aca}
+      \strng{authornamehash}{208a60284b260e33cc63fdaf2252df85}
+      \strng{authorfullhash}{208a60284b260e33cc63fdaf2252df85}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{nucl-th}
+      \field{eprinttype}{arXiv}
+      \field{title}{The In-Medium Similarity Renormalization Group at Finite Temperature}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2407.00576
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2407.00576
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2407.00576
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 
