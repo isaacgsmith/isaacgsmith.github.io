@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.7)  18 JUL 2024 13:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.7)  18 JUL 2024 14:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -746,35 +746,33 @@ fd)
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands1.
 fd)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd
+)
 \blx@maxsegment@1=\count424
 \blx@sectionciteorder@1=\count425
 Package biblatex Info: Reference section=1 on input line 194.
 Package biblatex Info: Setting label 'refsection:1' on input line 194.
 
 
-Package biblatex Warning: 'sorting' option to '\printbibliography' is no longer
- supported.
-(biblatex)                Please use 'sorting' option to '\newrefcontext'.
+LaTeX Warning: Empty bibliography on input line 197.
 
-
-LaTeX Warning: Empty bibliography on input line 196.
-
-Package biblatex Info: Reference section=0 on input line 197.
+Package biblatex Info: Reference section=0 on input line 199.
 \blx@maxsegment@2=\count426
 \blx@sectionciteorder@2=\count427
-Package biblatex Info: Reference section=2 on input line 204.
-Package biblatex Info: Setting label 'refsection:2' on input line 204.
+Package biblatex Info: Reference section=2 on input line 206.
+Package biblatex Info: Setting label 'refsection:2' on input line 206.
 
-LaTeX Warning: Empty bibliography on input line 206.
+LaTeX Warning: Empty bibliography on input line 209.
 
-Package biblatex Info: Reference section=0 on input line 207.
+Package biblatex Info: Reference section=0 on input line 211.
 [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/lo
 cal/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/loc
-al/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc}]
-Underfull \hbox (badness 10000) in alignment at lines 257--257
+al/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc}{/usr/lo
+cal/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}]
+Underfull \hbox (badness 10000) in alignment at lines 261--261
 [][]
  []
 
@@ -794,11 +792,11 @@ Package logreq Info: Writing requests to 'cv.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20626 strings out of 476047
- 376984 string characters out of 5790254
- 1871248 words of memory out of 5000000
- 40836 multiletter control sequences out of 15000+600000
- 517116 words of font info for 48 fonts, out of 8000000 for 9000
+ 20649 strings out of 476047
+ 377569 string characters out of 5790254
+ 1872248 words of memory out of 5000000
+ 40854 multiletter control sequences out of 15000+600000
+ 517427 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,11n,68p,1191b,801s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/fontawesome5/FontAweso
@@ -810,10 +808,10 @@ type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmsy10.pfb>
-Output written on cv.pdf (2 pages, 117900 bytes).
+Output written on cv.pdf (2 pages, 141524 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
+ 116 PDF objects out of 1000 (max. 8388607)
+ 86 compressed objects within 1 object stream
  11 named destinations out of 1000 (max. 500000)
  65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
