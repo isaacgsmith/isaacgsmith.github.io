@@ -55,7 +55,7 @@
 \titlespacing{\section}{0pt}{10pt}{10pt}
 
 %for publications
-\usepackage[style=authoryear, maxbibnames=2, uniquename=false, dashed=false]{biblatex}
+\usepackage[style=authoryear, maxbibnames=2, uniquename=false, dashed=false, sorting=ydnt]{biblatex}
 
 %Setup hyperref package, and colours for links
 \usepackage[unicode, draft=false]{hyperref}
@@ -193,9 +193,7 @@ school program, professorial assistantships, or Google’s Summer of Code.
 \section{Publications}
 \begin{refsection}[../../_bibliography/papers.bib]
 \nocite{*}
-\begin{refcontext}[sorting=none]
 \printbibliography[heading=none]
-\end{refcontext}
 \end{refsection}
 
 
@@ -203,11 +201,9 @@ school program, professorial assistantships, or Google’s Summer of Code.
 %	PRESENTATIONS
 %----------------------------------------------------------------------------------------
 \section{Presentations}
-\begin{refsection}[../../_bibliography/posters.bib, sorting=none]
+\begin{refsection}[../../_bibliography/posters.bib]
 \nocite{*}
-\begin{refcontext}[sorting=none]
 \printbibliography[heading=none]
-\end{refcontext}
 \end{refsection}
 
 
