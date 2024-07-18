@@ -2377,6 +2377,7 @@
   <!-- SECTION 2 -->
   <bcf:bibdata section="2">
     <bcf:datasource type="file" datatype="bibtex" glob="false">../../_bibliography/posters.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">sorting=none.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="2">
     <bcf:citekey order="1" intorder="1" nocite="1">*</bcf:citekey>
