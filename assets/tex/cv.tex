@@ -65,37 +65,40 @@
 \addbibresource{../../_bibliography/posters.bib}
 \setlength\bibitemsep{1em}
 
-% Custom command to highlight your name
-\newcommand{\highlightname}[1]{%
-  \ifboolexpr{ test {\ifnameequal{#1}{Isaac G.}{Smith}} }%
-    {\textbf{#1}}{#1}}
-
-% Custom name format to highlight your name
-\DeclareNameFormat{highlight}{%
-  \nameparts{#1}%
-  \ifboolexpr{ test {\ifnameequal{#1}{YourFirstName}{YourLastName}} }
-    {\textbf{\namepartfamily} \space \namepartgiven}
-    {\namepartfamily \space \namepartgiven}%
-  \ifthenelse{\value{listcount}<\value{liststop}}
-    {\addcomma\space}
+% Custom name format to handle different cases
+\DeclareNameFormat{custom}{%
+  % Check if the current author is the first one
+  \ifnumequal{\value{listcount}}{1}
+    {\namepartfamily \space \namepartgiven}
     {}%
-  \ifthenelse{\value{listcount}=1}
-    {\addspace}
-    {}}
+  
+  % Check if the current author is the second one
+  \ifnumequal{\value{listcount}}{2}
+    {%
+      \ifnumgreater{\value{liststop}}{2}
+        {\ifboolexpr{ test {\ifnameequal{#1}{Isaac G.}{Smith}} }
+          {\namepartfamily \space \namepartgiven \addcomma\space \bibstring{etal}}
+          {\namepartfamily \space \namepartgiven}}%
+        {\namepartfamily \space \namepartgiven}%
+    }
+    {}%
+  
+  % Check if the current author is beyond the second
+  \ifnumgreater{\value{listcount}}{2}
+    {%
+      \ifboolexpr{ test {\ifnameequal{#1}{Isaac G.}{Smith}} }
+        {%
+          \ifnumless{\value{listcount}}{\value{liststop}-1}
+            {\namepartfamily \space \textellipsis \space \namepartgiven}
+            {\namepartfamily \space \textellipsis \space \namepartgiven \addcomma\space \bibstring{etal}}%
+        }
+        {}%
+    }
+    {}%
+}
 
-% Redefine the bibliography driver to include "et al."
-\renewbibmacro*{name:andothers}{%
-  \ifboolexpr{
-    test {\ifnumgreater{\value{listcount}}{4}}
-    and
-    not test {\ifnumgreater{\value{listcount}}{\value{liststop}}}
-  }
-    {\ifnumequal{\value{listcount}}{\value{liststop}}
-      {\addspace\bibstring{andothers}}
-      {}}
-    {}}
-
-\AtEveryBibitem{\DeclareNameAlias{author}{highlight}}
+% Apply the custom name format to the author field globally
+\AtEveryBibitem{\DeclareNameAlias{author}{custom}}
 
 %for social icons
 \usepackage{fontawesome5}

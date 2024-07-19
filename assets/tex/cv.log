@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.7)  19 JUL 2024 06:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.7)  19 JUL 2024 06:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -643,24 +643,24 @@ tawesome5
  (./cv.aux)
 \openout1 = `cv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
 
 (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -732,9 +732,9 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'cv.bbl' found.
 
 (./cv.bbl)
-Package biblatex Info: Reference section=0 on input line 109.
-Package biblatex Info: Reference segment=0 on input line 109.
-Package hyperref Info: Link coloring ON on input line 109.
+Package biblatex Info: Reference section=0 on input line 112.
+Package biblatex Info: Reference segment=0 on input line 112.
+Package hyperref Info: Link coloring ON on input line 112.
  (./cv.out) (./cv.out)
 \@outlinefile=\write4
 \openout4 = `cv.out'.
@@ -750,48 +750,37 @@ fd)
 )
 \blx@maxsegment@1=\count424
 \blx@sectionciteorder@1=\count425
-Package biblatex Info: Reference section=1 on input line 226.
-Package biblatex Info: Setting label 'refsection:1' on input line 226.
+Package biblatex Info: Reference section=1 on input line 229.
+Package biblatex Info: Setting label 'refsection:1' on input line 229.
 
 
-./cv.tex:228: Package keyval Error: nameformat undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.228 ...raphy[heading=none, nameformat=highlight]
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./cv.tex:228: Package keyval Error: nameformat undefined.
+./cv.tex:231: Package keyval Error: nameformat undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.228 ...raphy[heading=none, nameformat=highlight]
+l.231 ...raphy[heading=none, nameformat=highlight]
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./cv.tex:228: Undefined control sequence.
-<argument> \ifnameequal 
-                        {family={Smith}, familyi={S\bibinitperiod }, given={...
-l.228 ...raphy[heading=none, nameformat=highlight]
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-./cv.tex:228: Undefined control sequence.
+./cv.tex:231: Package keyval Error: nameformat undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.231 ...raphy[heading=none, nameformat=highlight]
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./cv.tex:231: Undefined control sequence.
 <argument> \ifnameequal 
                         {family={Hergert}, familyi={H\bibinitperiod }, given...
-l.228 ...raphy[heading=none, nameformat=highlight]
+l.231 ...raphy[heading=none, nameformat=highlight]
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -799,10 +788,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./cv.tex:228: Undefined control sequence.
+./cv.tex:231: Undefined control sequence.
 <argument> \ifnameequal 
                         {family={Bogner}, familyi={B\bibinitperiod }, given=...
-l.228 ...raphy[heading=none, nameformat=highlight]
+l.231 ...raphy[heading=none, nameformat=highlight]
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -810,27 +799,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-Overfull \hbox (23.14377pt too wide) in paragraph at lines 228--228
-\OT1/cmr/m/n/12 ily=Hergert, fam-i-lyi=H., given=Heiko, giveni=H.YourFirstNameY
-ourLastNameHergert Heiko, fam-ily=Bogner,
- []
-
-./cv.tex:228: Undefined control sequence.
-<argument> \ifnameequal 
-                        {family={Blondin}, familyi={B\bibinitperiod }, given...
-l.228 ...raphy[heading=none, nameformat=highlight]
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./cv.tex:228: Undefined control sequence.
+./cv.tex:231: Undefined control sequence.
 <argument> \ifnameequal 
                         {family={Blinnikov}, familyi={B\bibinitperiod }, giv...
-l.228 ...raphy[heading=none, nameformat=highlight]
+l.231 ...raphy[heading=none, nameformat=highlight]
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -838,10 +810,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./cv.tex:228: Undefined control sequence.
+./cv.tex:231: Undefined control sequence.
 <argument> \ifnameequal 
                         {family={Callan}, familyi={C\bibinitperiod }, given=...
-l.228 ...raphy[heading=none, nameformat=highlight]
+l.231 ...raphy[heading=none, nameformat=highlight]
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -849,370 +821,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./cv.tex:228: Undefined control sequence.
+./cv.tex:231: Undefined control sequence.
 <argument> \ifnameequal 
                         {family={Collins}, familyi={C\bibinitperiod }, given...
-l.228 ...raphy[heading=none, nameformat=highlight]
+l.231 ...raphy[heading=none, nameformat=highlight]
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
-
-./cv.tex:228: Undefined control sequence.
-<argument> \ifnameequal 
-                        {family={Dessart}, familyi={D\bibinitperiod }, given...
-l.228 ...raphy[heading=none, nameformat=highlight]
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./cv.tex:228: Undefined control sequence.
-<argument> \ifnameequal 
-                        {family={Even}, familyi={E\bibinitperiod }, given={W...
-l.228 ...raphy[heading=none, nameformat=highlight]
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./cv.tex:228: Undefined control sequence.
-<argument> \ifnameequal 
-                        {family={Flörs}, familyi={F\bibinitperiod }, given=...
-l.228 ...raphy[heading=none, nameformat=highlight]
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./cv.tex:228: Undefined control sequence.
-<argument> \ifnameequal 
-                        {family={Fullard}, familyi={F\bibinitperiod }, given...
-l.228 ...raphy[heading=none, nameformat=highlight]
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./cv.tex:228: Undefined control sequence.
-<argument> \ifnameequal 
-                        {family={Hillier}, familyi={H\bibinitperiod }, given...
-l.228 ...raphy[heading=none, nameformat=highlight]
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./cv.tex:228: Undefined control sequence.
-<argument> \ifnameequal 
-                        {family={Jerkstrand}, familyi={J\bibinitperiod }, gi...
-l.228 ...raphy[heading=none, nameformat=highlight]
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./cv.tex:228: Undefined control sequence.
-<argument> \ifnameequal 
-                        {family={Kasen}, familyi={K\bibinitperiod }, given={...
-l.228 ...raphy[heading=none, nameformat=highlight]
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./cv.tex:228: Undefined control sequence.
-<argument> \ifnameequal 
-                        {family={Katz}, familyi={K\bibinitperiod }, given={B...
-l.228 ...raphy[heading=none, nameformat=highlight]
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./cv.tex:228: Undefined control sequence.
-<argument> \ifnameequal 
-                        {family={Kerzendorf}, familyi={K\bibinitperiod }, gi...
-l.228 ...raphy[heading=none, nameformat=highlight]
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./cv.tex:228: Undefined control sequence.
-<argument> \ifnameequal 
-                        {family={Kozyreva}, familyi={K\bibinitperiod }, give...
-l.228 ...raphy[heading=none, nameformat=highlight]
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./cv.tex:228: Undefined control sequence.
-<argument> \ifnameequal 
-                        {family={O’Brien}, familyi={O\bibinitperiod }, giv...
-l.228 ...raphy[heading=none, nameformat=highlight]
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./cv.tex:228: Undefined control sequence.
-<argument> \ifnameequal 
-                        {family={Pássaro}, familyi={P\bibinitperiod }, give...
-l.228 ...raphy[heading=none, nameformat=highlight]
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./cv.tex:228: Undefined control sequence.
-<argument> \ifnameequal 
-                        {family={Roth}, familyi={R\bibinitperiod }, given={N...
-l.228 ...raphy[heading=none, nameformat=highlight]
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./cv.tex:228: Undefined control sequence.
-<argument> \ifnameequal 
-                        {family={Shen}, familyi={S\bibinitperiod }, given={K...
-l.228 ...raphy[heading=none, nameformat=highlight]
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./cv.tex:228: Undefined control sequence.
-<argument> \ifnameequal 
-                        {family={Shingles}, familyi={S\bibinitperiod }, give...
-l.228 ...raphy[heading=none, nameformat=highlight]
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./cv.tex:228: Undefined control sequence.
-<argument> \ifnameequal 
-                        {family={Sim}, familyi={S\bibinitperiod }, given={St...
-l.228 ...raphy[heading=none, nameformat=highlight]
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./cv.tex:228: Undefined control sequence.
-<argument> \ifnameequal 
-                        {family={Singhal}, familyi={S\bibinitperiod }, given...
-l.228 ...raphy[heading=none, nameformat=highlight]
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./cv.tex:228: Undefined control sequence.
-<argument> \ifnameequal 
-                        {family={Smith}, familyi={S\bibinitperiod }, given={...
-l.228 ...raphy[heading=none, nameformat=highlight]
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./cv.tex:228: Undefined control sequence.
-<argument> \ifnameequal 
-                        {family={Sorokina}, familyi={S\bibinitperiod }, give...
-l.228 ...raphy[heading=none, nameformat=highlight]
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./cv.tex:228: Undefined control sequence.
-<argument> \ifnameequal 
-                        {family={Utrobin}, familyi={U\bibinitperiod }, given...
-l.228 ...raphy[heading=none, nameformat=highlight]
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./cv.tex:228: Undefined control sequence.
-<argument> \ifnameequal 
-                        {family={Vogl}, familyi={V\bibinitperiod }, given={C...
-l.228 ...raphy[heading=none, nameformat=highlight]
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./cv.tex:228: Undefined control sequence.
-<argument> \ifnameequal 
-                        {family={Williamson}, familyi={W\bibinitperiod }, gi...
-l.228 ...raphy[heading=none, nameformat=highlight]
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./cv.tex:228: Undefined control sequence.
-<argument> \ifnameequal 
-                        {family={Wollaeger}, familyi={W\bibinitperiod }, giv...
-l.228 ...raphy[heading=none, nameformat=highlight]
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./cv.tex:228: Undefined control sequence.
-<argument> \ifnameequal 
-                        {family={Woosley}, familyi={W\bibinitperiod }, given...
-l.228 ...raphy[heading=none, nameformat=highlight]
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./cv.tex:228: Undefined control sequence.
-<argument> \ifnameequal 
-                        {family={Wygoda}, familyi={W\bibinitperiod }, given=...
-l.228 ...raphy[heading=none, nameformat=highlight]
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (9.13004pt too wide) in paragraph at lines 228--228
-[][]\OT1/cmr/m/n/12 family=Blondin, fam-i-lyi=B., given=St^^Sephane, giveni=S.Y
-ourFirstNameYourLastNameBlondin St^^Sephane, fam-
- []
-
-
-Overfull \hbox (0.98846pt too wide) in paragraph at lines 228--228
-\OT1/cmr/m/n/12 ily=Even, fam-i-lyi=E., given=Wesley, giveni=W.YourFirstNameYou
-rLastNameEven Wes-ley, fam-ily=Fl^^?ors,
- []
-
-
-Overfull \hbox (1.34935pt too wide) in paragraph at lines 228--228
-\OT1/cmr/m/n/12 fam-i-lyi=H., given=D. John, giveni=D. J.YourFirstNameYourLastN
-ameHillier D. John, fam-ily=Jerkstrand,
- []
-
-
-Overfull \hbox (4.97035pt too wide) in paragraph at lines 228--228
-\OT1/cmr/m/n/12 fam-i-lyi=J., given=Anders, giveni=A.YourFirstNameYourLastNameJ
-erkstrand An-ders, fam-ily=Kasen, fam-
- []
-
-
-Overfull \hbox (44.68939pt too wide) in paragraph at lines 228--228
-\OT1/cmr/m/n/12 given=Boaz, giveni=B.YourFirstNameYourLastNameKatz Boaz, fam-il
-y=Kerzendorf, fam-i-lyi=K., given=Wolfgang,
- []
-
-
-Overfull \hbox (31.79115pt too wide) in paragraph at lines 228--228
-\OT1/cmr/m/n/12 giveni=W.YourFirstNameYourLastNameKerzendorf Wolf-gang, fam-ily
-=Kozyreva, fam-i-lyi=K., given=Alexandra,
- []
-
-
-Overfull \hbox (242.36084pt too wide) in paragraph at lines 228--228
-\OT1/cmr/m/n/12 giveni=J.YourFirstNameYourLastNameO'Brien Jack, fam-ily=P^^Sass
-aro, fam-i-lyi=P., given=Ezequiel A., giveni=E. A.YourFirstNameYourLastNameP^^S
-assaro
- []
-
-
-Overfull \hbox (34.41006pt too wide) in paragraph at lines 228--228
-\OT1/cmr/m/n/12 Eze-quiel A. fam-ily=Roth, fam-i-lyi=R., given=Nathaniel, given
-i=N.YourFirstNameYourLastNameRoth Nathaniel,
- []
-
-
-Overfull \hbox (0.44818pt too wide) in paragraph at lines 228--228
-\OT1/cmr/m/n/12 ily=Shingles, fam-i-lyi=S., given=Luke, giveni=L.YourFirstNameY
-ourLastNameShingles Luke, fam-ily=Sim,
- []
-
-
-Overfull \hbox (2.594pt too wide) in paragraph at lines 228--228
-\OT1/cmr/m/n/12 lyi=S., given=Elena, giveni=E.YourFirstNameYourLastNameSorokina
- Elena, fam-ily=Utrobin, fam-i-lyi=U.,
- []
-
-
-Overfull \hbox (2.2984pt too wide) in paragraph at lines 228--228
-\OT1/cmr/m/n/12 given=Christian, giveni=C.YourFirstNameYourLastNameVogl Chris-t
-ian, fam-ily=Williamson, fam-i-lyi=W.,
- []
-
-
-Overfull \hbox (34.96727pt too wide) in paragraph at lines 228--228
-\OT1/cmr/m/n/12 given=Ryan, giveni=R.YourFirstNameYourLastNameWollaeger Ryan, f
-am-ily=Woosley, fam-i-lyi=W., given=Stan
- []
-
-
-Overfull \hbox (10.81708pt too wide) in paragraph at lines 228--228
-\OT1/cmr/m/n/12 E., giveni=S. E.YourFirstNameYourLastNameWoosley Stan E. fam-il
-y=Wygoda, fam-i-lyi=W., given=Nahliel,
- []
 
 [1
 
@@ -1221,78 +839,313 @@ al/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/lo
 cal/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/loc
 al/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc}{/usr/lo
 cal/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}]
-Package biblatex Info: Reference section=0 on input line 229.
+./cv.tex:231: Undefined control sequence.
+<argument> \ifnameequal 
+                        {family={Dessart}, familyi={D\bibinitperiod }, given...
+l.231 ...raphy[heading=none, nameformat=highlight]
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cv.tex:231: Undefined control sequence.
+<argument> \ifnameequal 
+                        {family={Even}, familyi={E\bibinitperiod }, given={W...
+l.231 ...raphy[heading=none, nameformat=highlight]
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cv.tex:231: Undefined control sequence.
+<argument> \ifnameequal 
+                        {family={Flörs}, familyi={F\bibinitperiod }, given=...
+l.231 ...raphy[heading=none, nameformat=highlight]
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cv.tex:231: Undefined control sequence.
+<argument> \ifnameequal 
+                        {family={Fullard}, familyi={F\bibinitperiod }, given...
+l.231 ...raphy[heading=none, nameformat=highlight]
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cv.tex:231: Undefined control sequence.
+<argument> \ifnameequal 
+                        {family={Hillier}, familyi={H\bibinitperiod }, given...
+l.231 ...raphy[heading=none, nameformat=highlight]
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cv.tex:231: Undefined control sequence.
+<argument> \ifnameequal 
+                        {family={Jerkstrand}, familyi={J\bibinitperiod }, gi...
+l.231 ...raphy[heading=none, nameformat=highlight]
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cv.tex:231: Undefined control sequence.
+<argument> \ifnameequal 
+                        {family={Kasen}, familyi={K\bibinitperiod }, given={...
+l.231 ...raphy[heading=none, nameformat=highlight]
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cv.tex:231: Undefined control sequence.
+<argument> \ifnameequal 
+                        {family={Katz}, familyi={K\bibinitperiod }, given={B...
+l.231 ...raphy[heading=none, nameformat=highlight]
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cv.tex:231: Undefined control sequence.
+<argument> \ifnameequal 
+                        {family={Kerzendorf}, familyi={K\bibinitperiod }, gi...
+l.231 ...raphy[heading=none, nameformat=highlight]
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cv.tex:231: Undefined control sequence.
+<argument> \ifnameequal 
+                        {family={Kozyreva}, familyi={K\bibinitperiod }, give...
+l.231 ...raphy[heading=none, nameformat=highlight]
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cv.tex:231: Undefined control sequence.
+<argument> \ifnameequal 
+                        {family={O’Brien}, familyi={O\bibinitperiod }, giv...
+l.231 ...raphy[heading=none, nameformat=highlight]
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cv.tex:231: Undefined control sequence.
+<argument> \ifnameequal 
+                        {family={Pássaro}, familyi={P\bibinitperiod }, give...
+l.231 ...raphy[heading=none, nameformat=highlight]
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cv.tex:231: Undefined control sequence.
+<argument> \ifnameequal 
+                        {family={Roth}, familyi={R\bibinitperiod }, given={N...
+l.231 ...raphy[heading=none, nameformat=highlight]
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cv.tex:231: Undefined control sequence.
+<argument> \ifnameequal 
+                        {family={Shen}, familyi={S\bibinitperiod }, given={K...
+l.231 ...raphy[heading=none, nameformat=highlight]
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cv.tex:231: Undefined control sequence.
+<argument> \ifnameequal 
+                        {family={Shingles}, familyi={S\bibinitperiod }, give...
+l.231 ...raphy[heading=none, nameformat=highlight]
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cv.tex:231: Undefined control sequence.
+<argument> \ifnameequal 
+                        {family={Sim}, familyi={S\bibinitperiod }, given={St...
+l.231 ...raphy[heading=none, nameformat=highlight]
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cv.tex:231: Undefined control sequence.
+<argument> \ifnameequal 
+                        {family={Singhal}, familyi={S\bibinitperiod }, given...
+l.231 ...raphy[heading=none, nameformat=highlight]
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cv.tex:231: Undefined control sequence.
+<argument> \ifnameequal 
+                        {family={Smith}, familyi={S\bibinitperiod }, given={...
+l.231 ...raphy[heading=none, nameformat=highlight]
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cv.tex:231: Undefined control sequence.
+<argument> \ifnameequal 
+                        {family={Sorokina}, familyi={S\bibinitperiod }, give...
+l.231 ...raphy[heading=none, nameformat=highlight]
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cv.tex:231: Undefined control sequence.
+<argument> \ifnameequal 
+                        {family={Utrobin}, familyi={U\bibinitperiod }, given...
+l.231 ...raphy[heading=none, nameformat=highlight]
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cv.tex:231: Undefined control sequence.
+<argument> \ifnameequal 
+                        {family={Vogl}, familyi={V\bibinitperiod }, given={C...
+l.231 ...raphy[heading=none, nameformat=highlight]
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cv.tex:231: Undefined control sequence.
+<argument> \ifnameequal 
+                        {family={Williamson}, familyi={W\bibinitperiod }, gi...
+l.231 ...raphy[heading=none, nameformat=highlight]
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cv.tex:231: Undefined control sequence.
+<argument> \ifnameequal 
+                        {family={Wollaeger}, familyi={W\bibinitperiod }, giv...
+l.231 ...raphy[heading=none, nameformat=highlight]
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cv.tex:231: Undefined control sequence.
+<argument> \ifnameequal 
+                        {family={Woosley}, familyi={W\bibinitperiod }, given...
+l.231 ...raphy[heading=none, nameformat=highlight]
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cv.tex:231: Undefined control sequence.
+<argument> \ifnameequal 
+                        {family={Wygoda}, familyi={W\bibinitperiod }, given=...
+l.231 ...raphy[heading=none, nameformat=highlight]
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Package biblatex Info: Reference section=0 on input line 232.
 \blx@maxsegment@2=\count426
 \blx@sectionciteorder@2=\count427
-Package biblatex Info: Reference section=2 on input line 236.
-Package biblatex Info: Setting label 'refsection:2' on input line 236.
+Package biblatex Info: Reference section=2 on input line 239.
+Package biblatex Info: Setting label 'refsection:2' on input line 239.
 
-
-./cv.tex:238: Package keyval Error: nameformat undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.238 ...raphy[heading=none, nameformat=highlight]
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./cv.tex:238: Package keyval Error: nameformat undefined.
+./cv.tex:241: Package keyval Error: nameformat undefined.
 
 See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.238 ...raphy[heading=none, nameformat=highlight]
+l.241 ...raphy[heading=none, nameformat=highlight]
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./cv.tex:238: Undefined control sequence.
-<argument> \ifnameequal 
-                        {family={Smith}, familyi={S\bibinitperiod }, given={...
-l.238 ...raphy[heading=none, nameformat=highlight]
+
+./cv.tex:241: Package keyval Error: nameformat undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
                                                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./cv.tex:238: Undefined control sequence.
-<argument> \ifnameequal 
-                        {family={Smith}, familyi={S\bibinitperiod }, given={...
-l.238 ...raphy[heading=none, nameformat=highlight]
+l.241 ...raphy[heading=none, nameformat=highlight]
                                                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-./cv.tex:238: Undefined control sequence.
-<argument> \ifnameequal 
-                        {family={Smith}, familyi={S\bibinitperiod }, given={...
-l.238 ...raphy[heading=none, nameformat=highlight]
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (0.11092pt too wide) in paragraph at lines 238--238
-\OT1/cmr/m/n/12 26, 2023). ``Study-ing Nu-clei at Fi-nite Tem-per-a-ture with t
-he In-Medium Sim-i-lar-ity Renor-mal-iza-tion Group''.
- []
-
-Package biblatex Info: Reference section=0 on input line 239.
+Package biblatex Info: Reference section=0 on input line 242.
 [2]
-Underfull \hbox (badness 10000) in alignment at lines 289--289
+Underfull \hbox (badness 10000) in alignment at lines 292--292
 [][]
  []
 
@@ -1314,13 +1167,13 @@ Package logreq Info: Writing requests to 'cv.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20894 strings out of 476047
- 382903 string characters out of 5790254
- 1876248 words of memory out of 5000000
- 41091 multiletter control sequences out of 15000+600000
+ 20893 strings out of 476047
+ 382887 string characters out of 5790254
+ 1873248 words of memory out of 5000000
+ 41090 multiletter control sequences out of 15000+600000
  518244 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,11n,68p,1191b,1429s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 63i,11n,68p,1191b,1562s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/fontawesome5/FontAweso
 me5Brands-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/fo
 ntawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2023/texmf-dist/fonts
@@ -1332,10 +1185,10 @@ pe1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type
 public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmtt12.pfb>
-Output written on cv.pdf (3 pages, 168889 bytes).
+Output written on cv.pdf (3 pages, 168075 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 106 compressed objects within 2 object streams
+ 143 PDF objects out of 1000 (max. 8388607)
+ 107 compressed objects within 2 object streams
  17 named destinations out of 1000 (max. 500000)
  65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
