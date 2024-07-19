@@ -55,7 +55,7 @@
 \titlespacing{\section}{0pt}{10pt}{10pt}
 
 %for publications
-\usepackage[style=authoryear, maxbibnames=2, uniquename=false, dashed=false, sorting=ydnt]{biblatex}
+\usepackage[style=authoryear, maxbibnames=99, uniquename=false, dashed=false, sorting=ydnt]{biblatex}
 
 %Setup hyperref package, and colours for links
 \usepackage[unicode, draft=false]{hyperref}
@@ -64,6 +64,33 @@
 \addbibresource{../../_bibliography/papers.bib}
 \addbibresource{../../_bibliography/posters.bib}
 \setlength\bibitemsep{1em}
+
+% Custom command to highlight your name
+\newcommand{\highlightname}[1]{%
+  \ifboolexpr{ test {\ifnameequal{#1}{Isaac G.}{Smith}} }%
+    {\textbf{#1}}{#1}}
+
+% Custom name format to highlight your name
+\DeclareNameFormat{highlight}{%
+  \ifthenelse{\value{listcount}=1}
+    {\namepartfamily}{\highlightname{\namepartfamily}}%
+  \ifthenelse{\value{listcount}<4}
+    {\addcomma\space \highlightname{\namepartfamily}}
+    {\ifboolexpr{test {\ifnumcomp{\value{listcount}}{=}{4}} }
+      {, \textellipsis\space \highlightname{\namepartfamily}}%
+      {}}}
+
+% Redefine the bibliography driver to include "et al."
+\renewbibmacro*{name:andothers}{%
+  \ifboolexpr{
+    test {\ifnumgreater{\value{listcount}}{4}}
+    and
+    not test {\ifnumgreater{\value{listcount}}{\value{liststop}}}
+  }
+    {\ifnumequal{\value{listcount}}{\value{liststop}}
+      {\addspace\bibstring{andothers}}
+      {}}
+    {}}
 
 %for social icons
 \usepackage{fontawesome5}
@@ -193,7 +220,7 @@ school program, professorial assistantships, or Google’s Summer of Code.
 \section{Publications}
 \begin{refsection}[../../_bibliography/papers.bib]
 \nocite{*}
-\printbibliography[heading=none]
+\printbibliography[heading=none, nameformat=highlight]
 \end{refsection}
 
 
@@ -203,7 +230,7 @@ school program, professorial assistantships, or Google’s Summer of Code.
 \section{Presentations}
 \begin{refsection}[../../_bibliography/posters.bib]
 \nocite{*}
-\printbibliography[heading=none]
+\printbibliography[heading=none, nameformat=highlight]
 \end{refsection}
 
 
