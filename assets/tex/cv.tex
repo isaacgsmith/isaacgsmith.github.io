@@ -54,13 +54,11 @@
 \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
 \titlespacing{\section}{0pt}{10pt}{10pt}
 
-%for publications
-\usepackage[style=authoryear, maxbibnames=4, uniquename=false, dashed=false, sorting=none]{biblatex}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[style=authoryear,backend=biber,maxnames=99,minnames=1]{biblatex}
 \usepackage{etoolbox}
+\usepackage{xparse}
 
-% Name format (bold Smith)
 \DeclareNameFormat{author}{%
   \ifboolexpr{
     test {\ifdefequal{\family}{Smith}}
@@ -71,33 +69,59 @@
       test {\ifdefequal{\given}{I. G.}}
     )
   }
-  {\textbf{\nameparts{#1}{#3}{#5}{#7}}}
-  {\nameparts{#1}{#3}{#5}{#7}}
-  \usebibmacro{name:andothers}
+  {\textbf{#1}\addspace #3}
+  {#1\addspace #3}
+  \ifboolexpe{%
+    test {\ifnumequal{\value{listcount}}{\value{liststop}}}
+  }
+  {}
+  {\addcomma\space}%
 }
 
-\newcommand{\nameparts}[4]{#1\ifthenelse{\boolean{bbx:giveninits}}{}{~#2}}
+% New custom macro
+\newcommand{\isaacgsmith@listauthors}{%
+  \def\do##1{%
+    \ifcsdef{labelname@##1}
+      {%
+        \csuse{labelname@##1}%
+        \ifboolexpr{
+          test {\ifdefequal{\family@##1}{Smith}}
+          and
+          (
+            test {\ifdefequal{\given@##1}{Isaac G.}}
+            or
+            test {\ifdefequal{\given@##1}{I. G.}}
+          )
+        }
+          {\global\isaacgsmith@foundtrue\global\isaacgsmith@pos=\the\value{listcount}}
+          {}%
+      }%
+      {}%
+  }%
+  \dolistcsloop{blx@bbx@tempa}%
+}
 
-% Author macro (truncate around Smith)
-\newtoggle{smithfound}
-\newcounter{smithpos}
+\newtoggle{isaacgsmith@found}
+\newcounter{isaacgsmith@pos}
 
-\renewbibmacro*{author}{%
-  \global\togglefalse{smithfound}%
-  \global\setcounter{smithpos}{0}%
-  \forlistloop{\checksmith}{\namepartlist{author}}%
-  \iftoggle{smithfound}
+\newbibmacro*{author/isaacsmart}{%
+  \global\togglefalse{isaacgsmith@found}%
+  \global\setcounter{isaacgsmith@pos}{0}%
+  \let\blx@bbx@tempa\blx@bbx@tempa@list
+  \isaacgsmith@listauthors
+  %
+  \iftoggle{isaacgsmith@found}
     {%
-      \ifnumgreater{\value{listtotal}}{3}
+      \ifnum\value{listtotal}>3
         {%
-          \ifnum\value{smithpos}=1
+          \ifnum\value{isaacgsmith@pos}=1
             {\printnames[1]{author}\addspace et\addspace al\adddot}
-          \else\ifnum\value{smithpos}=2
+          \else\ifnum\value{isaacgsmith@pos}=2
             {\printnames[2]{author}\addspace et\addspace al\adddot}
-          \else\ifnum\value{smithpos}=3
+          \else\ifnum\value{isaacgsmith@pos}=3
             {\printnames[3]{author}\addspace et\addspace al\adddot}
           \else
-            {\printnames[2]{author}\addcomma\space\ldots\addcomma\space\printname{author}{\value{smithpos}}\addspace et\addspace al\adddot}
+            {\printnames[2]{author}\addcomma\space\ldots\addcomma\space\printname{author}{\value{isaacgsmith@pos}}\addspace et\addspace al\adddot}
           \fi\fi\fi
         }
         {\printnames{author}}
@@ -105,21 +129,10 @@
     {\printnames{author}}
 }
 
-\newcommand{\checksmith}[1]{%
-  \stepcounter{smithpos}%
-  \ifboolexpr{
-    test {\ifdefequal{\namepartfamily{#1}}{Smith}}
-    and
-    (
-      test {\ifdefequal{\namepartgiven{#1}}{Isaac G.}}
-      or
-      test {\ifdefequal{\namepartgiven{#1}}{I. G.}}
-    )
-  }
-  {\global\toggletrue{smithfound}}
-  {}%
+\renewbibmacro*{author}{%
+  \usebibmacro{author/isaacsmart}%
 }
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %Setup hyperref package, and colours for links
 \usepackage[unicode, draft=false]{hyperref}

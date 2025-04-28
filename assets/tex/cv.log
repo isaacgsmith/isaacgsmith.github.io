@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.9)  28 APR 2025 08:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.9)  28 APR 2025 09:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -516,75 +516,93 @@ Package: xparse 2024-08-16 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
 ))
-./cv.tex:77: Illegal parameter number in definition of \blx@defformat@d.
+./cv.tex:79: Illegal parameter number in definition of \blx@defformat@d.
 <to be read again> 
                    3
-l.77 }
+l.79 }
       
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-./cv.tex:77: Illegal parameter number in definition of \blx@defformat@d.
-<to be read again> 
-                   5
-l.77 }
-      
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-./cv.tex:77: Illegal parameter number in definition of \blx@defformat@d.
-<to be read again> 
-                   7
-l.77 }
-      
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-./cv.tex:77: Illegal parameter number in definition of \blx@defformat@d.
+./cv.tex:79: Illegal parameter number in definition of \blx@defformat@d.
 <to be read again> 
                    3
-l.77 }
-      
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-./cv.tex:77: Illegal parameter number in definition of \blx@defformat@d.
-<to be read again> 
-                   5
-l.77 }
-      
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-./cv.tex:77: Illegal parameter number in definition of \blx@defformat@d.
-<to be read again> 
-                   7
-l.77 }
+l.79 }
       
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
 
-./cv.tex:79: LaTeX Error: Command \nameparts already defined.
-               Or name \end... illegal, see p.192 of the manual.
+./cv.tex:102: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.79 ...thenelse{\boolean{bbx:giveninits}}{}{~#2}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.102 }
+       
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-\c@smithpos=\count416
+./cv.tex:102: Missing number, treated as zero.
+<to be read again> 
+                   l
+l.102 }
+       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./cv.tex:102: You already have nine parameters.
+\reserved@a ...dafter \isaacgsmith \reserved@b #10
+                                                  l{
+l.102 }
+       
+I'm going to ignore the # sign you just used,
+as well as the token that followed it.
+
+./cv.tex:102: Parameters must be numbered consecutively.
+<to be read again> 
+                   ##
+l.102 }
+       
+I've inserted the digit you should have used after the #.
+Type `1' to delete what you did use.
+
+./cv.tex:102: Parameters must be numbered consecutively.
+<to be read again> 
+                   1
+l.102 }
+       
+I've inserted the digit you should have used after the #.
+Type `1' to delete what you did use.
+
+./cv.tex:102: Argument of \do has an extra }.
+<inserted text> 
+                \par 
+l.102 }
+       
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+\etb@forlistloop@i {\do }\etb@lst@q@end |&
+./cv.tex:102: Paragraph ended before \do was complete.
+<to be read again> 
+                   \par 
+l.102 }
+       
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+\c@isaacgsmith@pos=\count416
 (/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
 
@@ -694,8 +712,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip86
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 127.
-Package hyperref Info: Option `breaklinks' set `true' on input line 127.
+Package hyperref Info: Option `colorlinks' set `true' on input line 140.
+Package hyperref Info: Option `breaklinks' set `true' on input line 140.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty
 Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
 (/usr/local/texlive/2024/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
@@ -713,24 +731,24 @@ tawesome5
  (./cv.aux)
 \openout1 = `cv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
 
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -802,9 +820,9 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'cv.bbl' found.
 
 (./cv.bbl)
-Package biblatex Info: Reference section=0 on input line 141.
-Package biblatex Info: Reference segment=0 on input line 141.
-Package hyperref Info: Link coloring ON on input line 141.
+Package biblatex Info: Reference section=0 on input line 154.
+Package biblatex Info: Reference segment=0 on input line 154.
+Package hyperref Info: Link coloring ON on input line 154.
  (./cv.out) (./cv.out)
 \@outlinefile=\write4
 \openout4 = `cv.out'.
@@ -820,13 +838,13 @@ fd)
 )
 \blx@maxsegment@1=\count436
 \blx@sectionciteorder@1=\count437
-Package biblatex Info: Reference section=1 on input line 258.
-Package biblatex Info: Setting label 'refsection:1' on input line 258.
+Package biblatex Info: Reference section=1 on input line 271.
+Package biblatex Info: Setting label 'refsection:1' on input line 271.
 
-./cv.tex:260: Undefined control sequence.
-<argument> \namepartlist 
-                         {author}
-l.260 \printbibliography[heading=none]
+./cv.tex:273: Undefined control sequence.
+\abx@macro@author/isaacsmart ...list \isaacgsmith 
+                                                  @listauthors \iftoggle {is...
+l.273 \printbibliography[heading=none]
                                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -834,40 +852,330 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./cv.tex:260: You can't use `macro parameter character #' in horizontal mode.
-<argument> ... \bibinitdelim V\bibinitperiod }}{##
-                                                  3}{##5}{##7}
-l.260 \printbibliography[heading=none]
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
                                       
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-./cv.tex:260: You can't use `macro parameter character #' in horizontal mode.
-<argument> ...initdelim V\bibinitperiod }}{##3}{##
-                                                  5}{##7}
-l.260 \printbibliography[heading=none]
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
                                       
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-./cv.tex:260: You can't use `macro parameter character #' in horizontal mode.
-<argument> ...elim V\bibinitperiod }}{##3}{##5}{##
-                                                  7}
-l.260 \printbibliography[heading=none]
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
                                       
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-./cv.tex:260: Undefined control sequence.
-<argument> \namepartlist 
-                         {author}
-l.260 \printbibliography[heading=none]
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
+                                      
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
+                                      
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
+                                      
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
+                                      
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=1\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
+                                      
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
+                                      
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
+                                      
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
+                                      
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
+                                      
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
+                                      
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
+                                      
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
+                                      
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
+                                      
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
+                                      
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
+                                      
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
+                                      
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
+                                      
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
+                                      
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
+                                      
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
+                                      
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
+                                      
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
+                                      
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
+                                      
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
+                                      
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
+                                      
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
+                                      
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Overfull \hbox (1.81528pt too wide) in paragraph at lines 273--273
+\OT1/cmr/m/n/12 giveni=C. E., give-nun=0 3, fam-ily=Dessart, fam-i-lyi=D., give
+n=Luc, giveni=L., give-nun=0 3, fam-ily=Even,
+ []
+
+
+Overfull \hbox (27.78043pt too wide) in paragraph at lines 273--273
+\OT1/cmr/m/n/12 fam-i-lyi=K., given=Boaz, giveni=B., give-nun=0 3, fam-ily=Kerz
+endorf, fam-i-lyi=K., given=Wolfgang, giveni=W.,
+ []
+
+
+Overfull \hbox (24.32755pt too wide) in paragraph at lines 273--273
+\OT1/cmr/m/n/12 fam-i-lyi=O., given=Jack, giveni=J., give-nun=0 3, fam-ily=P^^S
+assaro, fam-i-lyi=P., given=Ezequiel A., giveni=E. A.,
+ []
+
+
+Overfull \hbox (0.43193pt too wide) in paragraph at lines 273--273
+\OT1/cmr/m/n/12 lyi=U., given=Victor P., giveni=V. P., give-nun=0 3, fam-ily=Vo
+gl, fam-i-lyi=V., given=Christian, giveni=C.,
+ []
+
+
+Overfull \hbox (19.36647pt too wide) in paragraph at lines 273--273
+\OT1/cmr/m/n/12 fam-i-lyi=W., given=Ryan, giveni=R., give-nun=0 3, fam-ily=Woos
+ley, fam-i-lyi=W., given=Stan E., giveni=S. E.,
+ []
+
+./cv.tex:273: Undefined control sequence.
+\abx@macro@author/isaacsmart ...list \isaacgsmith 
+                                                  @listauthors \iftoggle {is...
+l.273 \printbibliography[heading=none]
                                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -875,136 +1183,120 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./cv.tex:260: You can't use `macro parameter character #' in horizontal mode.
-<argument> ... \bibinitdelim G\bibinitperiod }}{##
-                                                  3}{##5}{##7}
-l.260 \printbibliography[heading=none]
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
                                       
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-./cv.tex:260: You can't use `macro parameter character #' in horizontal mode.
-<argument> ...initdelim G\bibinitperiod }}{##3}{##
-                                                  5}{##7}
-l.260 \printbibliography[heading=none]
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
                                       
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-./cv.tex:260: You can't use `macro parameter character #' in horizontal mode.
-<argument> ...elim G\bibinitperiod }}{##3}{##5}{##
-                                                  7}
-l.260 \printbibliography[heading=none]
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
                                       
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-./cv.tex:260: You can't use `macro parameter character #' in horizontal mode.
-<argument> ...eiko}, giveni={H\bibinitperiod }}{##
-                                                  3}{##5}{##7}
-l.260 \printbibliography[heading=none]
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
                                       
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-./cv.tex:260: You can't use `macro parameter character #' in horizontal mode.
-<argument> ..., giveni={H\bibinitperiod }}{##3}{##
-                                                  5}{##7}
-l.260 \printbibliography[heading=none]
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
                                       
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-./cv.tex:260: You can't use `macro parameter character #' in horizontal mode.
-<argument> ...eni={H\bibinitperiod }}{##3}{##5}{##
-                                                  7}
-l.260 \printbibliography[heading=none]
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
                                       
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-./cv.tex:260: You can't use `macro parameter character #' in horizontal mode.
-<argument> ... \bibinitdelim K\bibinitperiod }}{##
-                                                  3}{##5}{##7}
-l.260 \printbibliography[heading=none]
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=1\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
                                       
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-./cv.tex:260: You can't use `macro parameter character #' in horizontal mode.
-<argument> ...initdelim K\bibinitperiod }}{##3}{##
-                                                  5}{##7}
-l.260 \printbibliography[heading=none]
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
                                       
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-./cv.tex:260: You can't use `macro parameter character #' in horizontal mode.
-<argument> ...elim K\bibinitperiod }}{##3}{##5}{##
-                                                  7}
-l.260 \printbibliography[heading=none]
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
                                       
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-./cv.tex:260: Undefined control sequence.
-<argument> \namepartlist 
-                         {author}
-l.260 \printbibliography[heading=none]
-                                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./cv.tex:260: You can't use `macro parameter character #' in horizontal mode.
-<argument> ...hane}, giveni={S\bibinitperiod }}{##
-                                                  3}{##5}{##7}
-l.260 \printbibliography[heading=none]
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
                                       
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-./cv.tex:260: You can't use `macro parameter character #' in horizontal mode.
-<argument> ..., giveni={S\bibinitperiod }}{##3}{##
-                                                  5}{##7}
-l.260 \printbibliography[heading=none]
-                                      
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
 
-./cv.tex:260: You can't use `macro parameter character #' in horizontal mode.
-<argument> ...eni={S\bibinitperiod }}{##3}{##5}{##
-                                                  7}
-l.260 \printbibliography[heading=none]
-                                      
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
+Overfull \hbox (10.65564pt too wide) in paragraph at lines 273--273
+\OT1/cmr/m/n/12 ily=Groneck, fam-i-lyi=G., given=Ryan, giveni=R., give-nun=0 3,
+ fam-ily=Fullard, fam-i-lyi=F., given=Andrew,
+ []
+
+
+Overfull \hbox (28.41362pt too wide) in paragraph at lines 273--273
+\OT1/cmr/m/n/12 fam-i-lyi=L., given=Jing, giveni=J., give-nun=0 3, fam-ily=Font
+es, fam-i-lyi=F., given=Christopher J., giveni=C. J.,
+ []
+
+
+Overfull \vbox (277.8426pt too high) has occurred while \output is active []
 
 
 
@@ -1015,16 +1307,56 @@ al/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/lo
 cal/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/loc
 al/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc}{/usr/lo
 cal/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}]
-Package biblatex Info: Reference section=0 on input line 261.
+./cv.tex:273: Undefined control sequence.
+\abx@macro@author/isaacsmart ...list \isaacgsmith 
+                                                  @listauthors \iftoggle {is...
+l.273 \printbibliography[heading=none]
+                                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
+                                      
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
+                                      
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./cv.tex:273: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.273 \printbibliography[heading=none]
+                                      
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Package biblatex Info: Reference section=0 on input line 274.
 \blx@maxsegment@2=\count438
 \blx@sectionciteorder@2=\count439
-Package biblatex Info: Reference section=2 on input line 268.
-Package biblatex Info: Setting label 'refsection:2' on input line 268.
-
-./cv.tex:270: Undefined control sequence.
-<argument> \namepartlist 
-                         {author}
-l.270 \printbibliography[heading=none]
+Package biblatex Info: Reference section=2 on input line 281.
+Package biblatex Info: Setting label 'refsection:2' on input line 281.
+./cv.tex:283: Undefined control sequence.
+\abx@macro@author/isaacsmart ...list \isaacgsmith 
+                                                  @listauthors \iftoggle {is...
+l.283 \printbibliography[heading=none]
                                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1032,40 +1364,20 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./cv.tex:270: You can't use `macro parameter character #' in horizontal mode.
-<argument> ... \bibinitdelim G\bibinitperiod }}{##
-                                                  3}{##5}{##7}
-l.270 \printbibliography[heading=none]
+./cv.tex:283: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.283 \printbibliography[heading=none]
                                       
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-./cv.tex:270: You can't use `macro parameter character #' in horizontal mode.
-<argument> ...initdelim G\bibinitperiod }}{##3}{##
-                                                  5}{##7}
-l.270 \printbibliography[heading=none]
-                                      
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-./cv.tex:270: You can't use `macro parameter character #' in horizontal mode.
-<argument> ...elim G\bibinitperiod }}{##3}{##5}{##
-                                                  7}
-l.270 \printbibliography[heading=none]
-                                      
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-./cv.tex:270: Undefined control sequence.
-<argument> \namepartlist 
-                         {author}
-l.270 \printbibliography[heading=none]
+./cv.tex:283: Undefined control sequence.
+\abx@macro@author/isaacsmart ...list \isaacgsmith 
+                                                  @listauthors \iftoggle {is...
+l.283 \printbibliography[heading=none]
                                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1073,40 +1385,20 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./cv.tex:270: You can't use `macro parameter character #' in horizontal mode.
-<argument> ... \bibinitdelim G\bibinitperiod }}{##
-                                                  3}{##5}{##7}
-l.270 \printbibliography[heading=none]
+./cv.tex:283: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.283 \printbibliography[heading=none]
                                       
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-./cv.tex:270: You can't use `macro parameter character #' in horizontal mode.
-<argument> ...initdelim G\bibinitperiod }}{##3}{##
-                                                  5}{##7}
-l.270 \printbibliography[heading=none]
-                                      
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-./cv.tex:270: You can't use `macro parameter character #' in horizontal mode.
-<argument> ...elim G\bibinitperiod }}{##3}{##5}{##
-                                                  7}
-l.270 \printbibliography[heading=none]
-                                      
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-./cv.tex:270: Undefined control sequence.
-<argument> \namepartlist 
-                         {author}
-l.270 \printbibliography[heading=none]
+./cv.tex:283: Undefined control sequence.
+\abx@macro@author/isaacsmart ...list \isaacgsmith 
+                                                  @listauthors \iftoggle {is...
+l.283 \printbibliography[heading=none]
                                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1114,45 +1406,27 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./cv.tex:270: You can't use `macro parameter character #' in horizontal mode.
-<argument> ... \bibinitdelim G\bibinitperiod }}{##
-                                                  3}{##5}{##7}
-l.270 \printbibliography[heading=none]
+./cv.tex:283: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...binitperiod }, givenun=0\addspace ##
+                                                  3
+l.283 \printbibliography[heading=none]
                                       
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-./cv.tex:270: You can't use `macro parameter character #' in horizontal mode.
-<argument> ...initdelim G\bibinitperiod }}{##3}{##
-                                                  5}{##7}
-l.270 \printbibliography[heading=none]
-                                      
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
+Package biblatex Info: Reference section=0 on input line 284.
 
-./cv.tex:270: You can't use `macro parameter character #' in horizontal mode.
-<argument> ...elim G\bibinitperiod }}{##3}{##5}{##
-                                                  7}
-l.270 \printbibliography[heading=none]
-                                      
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
 
-Package biblatex Info: Reference section=0 on input line 271.
-
-Underfull \hbox (badness 10000) in alignment at lines 321--321
+[2]
+Underfull \hbox (badness 10000) in alignment at lines 334--334
 [][]
  []
 
 
 
-[2] (./cv.aux)
+[3] (./cv.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1164,13 +1438,13 @@ Package logreq Info: Writing requests to 'cv.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21109 strings out of 473201
- 384935 string characters out of 5716127
- 1226004 words of memory out of 5000000
+ 21110 strings out of 473201
+ 384955 string characters out of 5716127
+ 1232947 words of memory out of 5000000
  44132 multiletter control sequences out of 15000+600000
  564794 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,11n,81p,1195b,1406s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 66i,11n,81p,1195b,1497s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawesome5/FontAweso
 me5Brands-Regular.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/fo
 ntawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2024/texmf-dist/fonts
@@ -1182,10 +1456,10 @@ pe1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type
 public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmti12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmtt12.pfb>
-Output written on cv.pdf (2 pages, 167774 bytes).
+Output written on cv.pdf (3 pages, 170657 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 107 compressed objects within 2 object streams
- 17 named destinations out of 1000 (max. 500000)
+ 146 PDF objects out of 1000 (max. 8388607)
+ 110 compressed objects within 2 object streams
+ 18 named destinations out of 1000 (max. 500000)
  65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
