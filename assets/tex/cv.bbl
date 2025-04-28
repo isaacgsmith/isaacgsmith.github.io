@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
+% $ biblatex bbl format version 3.3 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,14 +18,92 @@
 
 
 \refsection{1}
-  \datalist[entry]{ydnt/global//global/global}
-    \entry{smith2024inmediumsimilarityrenormalizationgroup}{misc}{}
-      \name{author}{3}{}{%
-        {{hash=7e3d3bf557f8baeb8ec9688fea703246}{%
-           family={Smith},
+  \datalist[entry]{ydnt/global//global/global/global}
+    \entry{shields2025introducingstardisopenmodular}{misc}{}{}
+      \name{author}{10}{}{%
+        {{hash=2b280879b6b74229f59460ddedb85e8e}{%
+           family={Shields},
            familyi={S\bibinitperiod},
-           given={Isaac\bibnamedelima G.},
-           giveni={I\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+           given={Joshua\bibnamedelima V.},
+           giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=1933d75b901d93aabdca8d3e32bb7efa}{%
+           family={Kerzendorf},
+           familyi={K\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod}}}%
+        {{hash=cd8945bc968b237f747146e54d857f70}{%
+           family={\textbf{Isaac\bibnamedelimb G.\bibnamedelimi Smith}},
+           familyi={I\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=2acde3d64de80af97ba9283673adeffa}{%
+           family={Pereira},
+           familyi={P\bibinitperiod},
+           given={Tiago\bibnamedelimb M.\bibnamedelimi D.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=d447096bc70e66d873995fcce4d9ec1a}{%
+           family={Vogl},
+           familyi={V\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=cc684610b72ad54ab4f28f0acb8b7247}{%
+           family={Groneck},
+           familyi={G\bibinitperiod},
+           given={Ryan},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d5182a222597e98980d52049d11aee03}{%
+           family={Fullard},
+           familyi={F\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=206ac5b6d14ff91c296d3967ddb4d189}{%
+           family={Singhal},
+           familyi={S\bibinitperiod},
+           given={Jaladh},
+           giveni={J\bibinitperiod}}}%
+        {{hash=56a36a3757d48ad98c5d9f736c9f69d3}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod}}}%
+        {{hash=cd60daf7a521dd840dc6be20d5451b2b}{%
+           family={Fontes},
+           familyi={F\bibinitperiod},
+           given={Christopher\bibnamedelima J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{97ffcf5e7adb38cebbe6a054f31ab524}
+      \strng{fullhash}{877a162d2fb192a73f761ec6f294017c}
+      \strng{fullhashraw}{877a162d2fb192a73f761ec6f294017c}
+      \strng{bibnamehash}{97ffcf5e7adb38cebbe6a054f31ab524}
+      \strng{authorbibnamehash}{97ffcf5e7adb38cebbe6a054f31ab524}
+      \strng{authornamehash}{97ffcf5e7adb38cebbe6a054f31ab524}
+      \strng{authorfullhash}{877a162d2fb192a73f761ec6f294017c}
+      \strng{authorfullhashraw}{877a162d2fb192a73f761ec6f294017c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph.SR}
+      \field{eprinttype}{arXiv}
+      \field{title}{Introducing STARDIS: An Open and Modular Stellar Spectral Synthesis Code}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2504.17762
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2504.17762
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2504.17762
+      \endverb
+    \endentry
+    \entry{Smith_ftimsrg_2025}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=d86b1742a5cbd322b978aa90f4175ea8}{%
+           family={\textbf{Smith,\bibnamedelimb Isaac\bibnamedelimb G.}},
+           familyi={S\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
         {{hash=95131d534e7de601968f5edbce396d58}{%
            family={Hergert},
            familyi={H\bibinitperiod},
@@ -37,34 +115,42 @@
            given={Scott\bibnamedelima K.},
            giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
       }
-      \strng{namehash}{208a60284b260e33cc63fdaf2252df85}
-      \strng{fullhash}{208a60284b260e33cc63fdaf2252df85}
-      \strng{bibnamehash}{208a60284b260e33cc63fdaf2252df85}
-      \strng{authorbibnamehash}{208a60284b260e33cc63fdaf2252df85}
-      \strng{authornamehash}{208a60284b260e33cc63fdaf2252df85}
-      \strng{authorfullhash}{208a60284b260e33cc63fdaf2252df85}
+      \list{publisher}{1}{%
+        {American Physical Society (APS)}%
+      }
+      \strng{namehash}{b315123d2670fd3ff84cf64ea52171df}
+      \strng{fullhash}{b315123d2670fd3ff84cf64ea52171df}
+      \strng{fullhashraw}{b315123d2670fd3ff84cf64ea52171df}
+      \strng{bibnamehash}{b315123d2670fd3ff84cf64ea52171df}
+      \strng{authorbibnamehash}{b315123d2670fd3ff84cf64ea52171df}
+      \strng{authornamehash}{b315123d2670fd3ff84cf64ea52171df}
+      \strng{authorfullhash}{b315123d2670fd3ff84cf64ea52171df}
+      \strng{authorfullhashraw}{b315123d2670fd3ff84cf64ea52171df}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eprintclass}{nucl-th}
-      \field{eprinttype}{arXiv}
-      \field{title}{The In-Medium Similarity Renormalization Group at Finite Temperature}
-      \field{year}{2024}
+      \field{issn}{2469-9993}
+      \field{journaltitle}{Physical Review C}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{In-medium similarity renormalization group at finite temperature}
+      \field{volume}{111}
+      \field{year}{2025}
       \true{nocite}
-      \verb{eprint}
-      \verb 2407.00576
+      \verb{doi}
+      \verb 10.1103/physrevc.111.044318
       \endverb
       \verb{urlraw}
-      \verb https://arxiv.org/abs/2407.00576
+      \verb http://dx.doi.org/10.1103/PhysRevC.111.044318
       \endverb
       \verb{url}
-      \verb https://arxiv.org/abs/2407.00576
+      \verb http://dx.doi.org/10.1103/PhysRevC.111.044318
       \endverb
     \endentry
-    \entry{Blondin_2022}{article}{}
+    \entry{Blondin_2022}{article}{}{}
       \name{author}{29}{}{%
         {{hash=37603c6f5486a776586441749a5497f5}{%
            family={Blondin},
@@ -171,11 +257,9 @@
            familyi={S\bibinitperiod},
            given={Jaladh},
            giveni={J\bibinitperiod}}}%
-        {{hash=7e3d3bf557f8baeb8ec9688fea703246}{%
-           family={Smith},
-           familyi={S\bibinitperiod},
-           given={Isaac\bibnamedelima G.},
-           giveni={I\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=d86b1742a5cbd322b978aa90f4175ea8}{%
+           family={\textbf{Smith,\bibnamedelimb Isaac\bibnamedelimb G.}},
+           familyi={S\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
         {{hash=29e17bbb97bdbc89ed44cb4c073aa24a}{%
            family={Sorokina},
            familyi={S\bibinitperiod},
@@ -216,11 +300,13 @@
         {EDP Sciences}%
       }
       \strng{namehash}{7cbd1aa654da04c2236e055bad15f6e2}
-      \strng{fullhash}{3bb090867a3ebf3dff006741d82164c9}
+      \strng{fullhash}{c07212495c3b2614a20bb40886a644fa}
+      \strng{fullhashraw}{c07212495c3b2614a20bb40886a644fa}
       \strng{bibnamehash}{7cbd1aa654da04c2236e055bad15f6e2}
       \strng{authorbibnamehash}{7cbd1aa654da04c2236e055bad15f6e2}
       \strng{authornamehash}{7cbd1aa654da04c2236e055bad15f6e2}
-      \strng{authorfullhash}{3bb090867a3ebf3dff006741d82164c9}
+      \strng{authorfullhash}{c07212495c3b2614a20bb40886a644fa}
+      \strng{authorfullhashraw}{c07212495c3b2614a20bb40886a644fa}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{extradatescope}{labelyear}
@@ -250,8 +336,8 @@
 \endrefsection
 
 \refsection{2}
-  \datalist[entry]{ydnt/global//global/global}
-    \entry{stardis}{inproceedings}{}
+  \datalist[entry]{ydnt/global//global/global/global}
+    \entry{stardis}{inproceedings}{}{}
       \name{author}{1}{}{%
         {{hash=7e3d3bf557f8baeb8ec9688fea703246}{%
            family={Smith},
@@ -264,10 +350,12 @@
       }
       \strng{namehash}{7e3d3bf557f8baeb8ec9688fea703246}
       \strng{fullhash}{7e3d3bf557f8baeb8ec9688fea703246}
+      \strng{fullhashraw}{7e3d3bf557f8baeb8ec9688fea703246}
       \strng{bibnamehash}{7e3d3bf557f8baeb8ec9688fea703246}
       \strng{authorbibnamehash}{7e3d3bf557f8baeb8ec9688fea703246}
       \strng{authornamehash}{7e3d3bf557f8baeb8ec9688fea703246}
       \strng{authorfullhash}{7e3d3bf557f8baeb8ec9688fea703246}
+      \strng{authorfullhashraw}{7e3d3bf557f8baeb8ec9688fea703246}
       \field{extraname}{1}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
@@ -280,7 +368,7 @@
       \field{year}{April 14, 2023}
       \true{nocite}
     \endentry
-    \entry{documentation}{inproceedings}{}
+    \entry{documentation}{inproceedings}{}{}
       \name{author}{1}{}{%
         {{hash=7e3d3bf557f8baeb8ec9688fea703246}{%
            family={Smith},
@@ -293,10 +381,12 @@
       }
       \strng{namehash}{7e3d3bf557f8baeb8ec9688fea703246}
       \strng{fullhash}{7e3d3bf557f8baeb8ec9688fea703246}
+      \strng{fullhashraw}{7e3d3bf557f8baeb8ec9688fea703246}
       \strng{bibnamehash}{7e3d3bf557f8baeb8ec9688fea703246}
       \strng{authorbibnamehash}{7e3d3bf557f8baeb8ec9688fea703246}
       \strng{authornamehash}{7e3d3bf557f8baeb8ec9688fea703246}
       \strng{authorfullhash}{7e3d3bf557f8baeb8ec9688fea703246}
+      \strng{authorfullhashraw}{7e3d3bf557f8baeb8ec9688fea703246}
       \field{extraname}{2}
       \field{sortinit}{J}
       \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
@@ -309,7 +399,7 @@
       \field{year}{July 28, 2021}
       \true{nocite}
     \endentry
-    \entry{imsrg}{inproceedings}{}
+    \entry{imsrg}{inproceedings}{}{}
       \name{author}{1}{}{%
         {{hash=7e3d3bf557f8baeb8ec9688fea703246}{%
            family={Smith},
@@ -322,10 +412,12 @@
       }
       \strng{namehash}{7e3d3bf557f8baeb8ec9688fea703246}
       \strng{fullhash}{7e3d3bf557f8baeb8ec9688fea703246}
+      \strng{fullhashraw}{7e3d3bf557f8baeb8ec9688fea703246}
       \strng{bibnamehash}{7e3d3bf557f8baeb8ec9688fea703246}
       \strng{authorbibnamehash}{7e3d3bf557f8baeb8ec9688fea703246}
       \strng{authornamehash}{7e3d3bf557f8baeb8ec9688fea703246}
       \strng{authorfullhash}{7e3d3bf557f8baeb8ec9688fea703246}
+      \strng{authorfullhashraw}{7e3d3bf557f8baeb8ec9688fea703246}
       \field{extraname}{3}
       \field{sortinit}{J}
       \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
