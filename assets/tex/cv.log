@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.9)  28 APR 2025 18:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.9)  28 APR 2025 18:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -772,30 +772,28 @@ Package biblatex Info: Reference section=2 on input line 217.
 Package biblatex Info: Setting label 'refsection:2' on input line 217.
 Package biblatex Info: Reference section=0 on input line 220.
 
-Underfull \hbox (badness 10000) in alignment at lines 270--270
+Underfull \hbox (badness 10000) in alignment at lines 263--263
 [][]
  []
 
 
 
-[2]
-
-[3] (./cv.aux)
+[2] (./cv.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: FD749A93CA987920E19F6F8277D32151;1036.
+(rerunfilecheck)             Checksum: FBB6471CED4B8D3B4BDCBA1A4C79B926;806.
 Package logreq Info: Writing requests to 'cv.run.xml'.
 \openout1 = `cv.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21255 strings out of 473201
- 388475 string characters out of 5716127
+ 21251 strings out of 473201
+ 388404 string characters out of 5716127
  1229711 words of memory out of 5000000
- 44273 multiletter control sequences out of 15000+600000
+ 44271 multiletter control sequences out of 15000+600000
  564794 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,11n,81p,1195b,1408s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -810,10 +808,10 @@ pe1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type
 public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmti12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmtt12.pfb>
-Output written on cv.pdf (3 pages, 169604 bytes).
+Output written on cv.pdf (2 pages, 167851 bytes).
 PDF statistics:
- 146 PDF objects out of 1000 (max. 8388607)
- 110 compressed objects within 2 object streams
- 18 named destinations out of 1000 (max. 500000)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 134 PDF objects out of 1000 (max. 8388607)
+ 101 compressed objects within 2 object streams
+ 16 named destinations out of 1000 (max. 500000)
+ 57 words of extra memory for PDF output out of 10000 (max. 10000000)
 
