@@ -18,7 +18,7 @@
 
 
 \refsection{1}
-  \datalist[entry]{ydnt/global//global/global/global}
+  \datalist[entry]{none/global//global/global/global}
     \entry{shields2025introducingstardisopenmodular}{misc}{}{}
       \name{author}{10}{}{%
         {{hash=2b280879b6b74229f59460ddedb85e8e}{%
@@ -31,9 +31,11 @@
            familyi={K\bibinitperiod},
            given={Wolfgang},
            giveni={W\bibinitperiod}}}%
-        {{hash=cd8945bc968b237f747146e54d857f70}{%
-           family={\textbf{Isaac\bibnamedelimb G.\bibnamedelimi Smith}},
-           familyi={I\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=7e3d3bf557f8baeb8ec9688fea703246}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Isaac\bibnamedelima G.},
+           giveni={I\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
         {{hash=2acde3d64de80af97ba9283673adeffa}{%
            family={Pereira},
            familyi={P\bibinitperiod},
@@ -71,13 +73,13 @@
            giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
       }
       \strng{namehash}{97ffcf5e7adb38cebbe6a054f31ab524}
-      \strng{fullhash}{877a162d2fb192a73f761ec6f294017c}
-      \strng{fullhashraw}{877a162d2fb192a73f761ec6f294017c}
+      \strng{fullhash}{d119f1551d1802bc9487eaf57f3619c2}
+      \strng{fullhashraw}{d119f1551d1802bc9487eaf57f3619c2}
       \strng{bibnamehash}{97ffcf5e7adb38cebbe6a054f31ab524}
       \strng{authorbibnamehash}{97ffcf5e7adb38cebbe6a054f31ab524}
       \strng{authornamehash}{97ffcf5e7adb38cebbe6a054f31ab524}
-      \strng{authorfullhash}{877a162d2fb192a73f761ec6f294017c}
-      \strng{authorfullhashraw}{877a162d2fb192a73f761ec6f294017c}
+      \strng{authorfullhash}{d119f1551d1802bc9487eaf57f3619c2}
+      \strng{authorfullhashraw}{d119f1551d1802bc9487eaf57f3619c2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{extradatescope}{labelyear}
@@ -101,9 +103,11 @@
     \endentry
     \entry{Smith_ftimsrg_2025}{article}{}{}
       \name{author}{3}{}{%
-        {{hash=d86b1742a5cbd322b978aa90f4175ea8}{%
-           family={\textbf{Smith,\bibnamedelimb Isaac\bibnamedelimb G.}},
-           familyi={S\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=7e3d3bf557f8baeb8ec9688fea703246}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Isaac\bibnamedelima G.},
+           giveni={I\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
         {{hash=95131d534e7de601968f5edbce396d58}{%
            family={Hergert},
            familyi={H\bibinitperiod},
@@ -118,16 +122,16 @@
       \list{publisher}{1}{%
         {American Physical Society (APS)}%
       }
-      \strng{namehash}{b315123d2670fd3ff84cf64ea52171df}
-      \strng{fullhash}{b315123d2670fd3ff84cf64ea52171df}
-      \strng{fullhashraw}{b315123d2670fd3ff84cf64ea52171df}
-      \strng{bibnamehash}{b315123d2670fd3ff84cf64ea52171df}
-      \strng{authorbibnamehash}{b315123d2670fd3ff84cf64ea52171df}
-      \strng{authornamehash}{b315123d2670fd3ff84cf64ea52171df}
-      \strng{authorfullhash}{b315123d2670fd3ff84cf64ea52171df}
-      \strng{authorfullhashraw}{b315123d2670fd3ff84cf64ea52171df}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \strng{namehash}{208a60284b260e33cc63fdaf2252df85}
+      \strng{fullhash}{208a60284b260e33cc63fdaf2252df85}
+      \strng{fullhashraw}{208a60284b260e33cc63fdaf2252df85}
+      \strng{bibnamehash}{208a60284b260e33cc63fdaf2252df85}
+      \strng{authorbibnamehash}{208a60284b260e33cc63fdaf2252df85}
+      \strng{authornamehash}{208a60284b260e33cc63fdaf2252df85}
+      \strng{authorfullhash}{208a60284b260e33cc63fdaf2252df85}
+      \strng{authorfullhashraw}{208a60284b260e33cc63fdaf2252df85}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -257,9 +261,11 @@
            familyi={S\bibinitperiod},
            given={Jaladh},
            giveni={J\bibinitperiod}}}%
-        {{hash=d86b1742a5cbd322b978aa90f4175ea8}{%
-           family={\textbf{Smith,\bibnamedelimb Isaac\bibnamedelimb G.}},
-           familyi={S\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=7e3d3bf557f8baeb8ec9688fea703246}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Isaac\bibnamedelima G.},
+           giveni={I\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
         {{hash=29e17bbb97bdbc89ed44cb4c073aa24a}{%
            family={Sorokina},
            familyi={S\bibinitperiod},
@@ -300,15 +306,15 @@
         {EDP Sciences}%
       }
       \strng{namehash}{7cbd1aa654da04c2236e055bad15f6e2}
-      \strng{fullhash}{c07212495c3b2614a20bb40886a644fa}
-      \strng{fullhashraw}{c07212495c3b2614a20bb40886a644fa}
+      \strng{fullhash}{3bb090867a3ebf3dff006741d82164c9}
+      \strng{fullhashraw}{3bb090867a3ebf3dff006741d82164c9}
       \strng{bibnamehash}{7cbd1aa654da04c2236e055bad15f6e2}
       \strng{authorbibnamehash}{7cbd1aa654da04c2236e055bad15f6e2}
       \strng{authornamehash}{7cbd1aa654da04c2236e055bad15f6e2}
-      \strng{authorfullhash}{c07212495c3b2614a20bb40886a644fa}
-      \strng{authorfullhashraw}{c07212495c3b2614a20bb40886a644fa}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \strng{authorfullhash}{3bb090867a3ebf3dff006741d82164c9}
+      \strng{authorfullhashraw}{3bb090867a3ebf3dff006741d82164c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -336,8 +342,8 @@
 \endrefsection
 
 \refsection{2}
-  \datalist[entry]{ydnt/global//global/global/global}
-    \entry{stardis}{inproceedings}{}{}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{imsrg}{inproceedings}{}{}
       \name{author}{1}{}{%
         {{hash=7e3d3bf557f8baeb8ec9688fea703246}{%
            family={Smith},
@@ -357,8 +363,39 @@
       \strng{authorfullhash}{7e3d3bf557f8baeb8ec9688fea703246}
       \strng{authorfullhashraw}{7e3d3bf557f8baeb8ec9688fea703246}
       \field{extraname}{1}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Mid-Michigan Symposium for Undergraduate Research}
+      \field{title}{Studying Nuclei at Finite Temperature with the In-Medium Similarity Renormalization Group}
+      \field{year}{July 26, 2023}
+      \true{nocite}
+    \endentry
+    \entry{stardis}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=7e3d3bf557f8baeb8ec9688fea703246}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Isaac\bibnamedelima G.},
+           giveni={I\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {East Lansing, MI}%
+      }
+      \strng{namehash}{7e3d3bf557f8baeb8ec9688fea703246}
+      \strng{fullhash}{7e3d3bf557f8baeb8ec9688fea703246}
+      \strng{fullhashraw}{7e3d3bf557f8baeb8ec9688fea703246}
+      \strng{bibnamehash}{7e3d3bf557f8baeb8ec9688fea703246}
+      \strng{authorbibnamehash}{7e3d3bf557f8baeb8ec9688fea703246}
+      \strng{authornamehash}{7e3d3bf557f8baeb8ec9688fea703246}
+      \strng{authorfullhash}{7e3d3bf557f8baeb8ec9688fea703246}
+      \strng{authorfullhashraw}{7e3d3bf557f8baeb8ec9688fea703246}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -387,9 +424,9 @@
       \strng{authornamehash}{7e3d3bf557f8baeb8ec9688fea703246}
       \strng{authorfullhash}{7e3d3bf557f8baeb8ec9688fea703246}
       \strng{authorfullhashraw}{7e3d3bf557f8baeb8ec9688fea703246}
-      \field{extraname}{2}
-      \field{sortinit}{J}
-      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extraname}{3}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -397,37 +434,6 @@
       \field{booktitle}{Mid-Michigan Symposium for Undergraduate Research}
       \field{title}{Interactive and User-Friendly Methods for Documenting Code}
       \field{year}{July 28, 2021}
-      \true{nocite}
-    \endentry
-    \entry{imsrg}{inproceedings}{}{}
-      \name{author}{1}{}{%
-        {{hash=7e3d3bf557f8baeb8ec9688fea703246}{%
-           family={Smith},
-           familyi={S\bibinitperiod},
-           given={Isaac\bibnamedelima G.},
-           giveni={I\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {East Lansing, MI}%
-      }
-      \strng{namehash}{7e3d3bf557f8baeb8ec9688fea703246}
-      \strng{fullhash}{7e3d3bf557f8baeb8ec9688fea703246}
-      \strng{fullhashraw}{7e3d3bf557f8baeb8ec9688fea703246}
-      \strng{bibnamehash}{7e3d3bf557f8baeb8ec9688fea703246}
-      \strng{authorbibnamehash}{7e3d3bf557f8baeb8ec9688fea703246}
-      \strng{authornamehash}{7e3d3bf557f8baeb8ec9688fea703246}
-      \strng{authorfullhash}{7e3d3bf557f8baeb8ec9688fea703246}
-      \strng{authorfullhashraw}{7e3d3bf557f8baeb8ec9688fea703246}
-      \field{extraname}{3}
-      \field{sortinit}{J}
-      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Mid-Michigan Symposium for Undergraduate Research}
-      \field{title}{Studying Nuclei at Finite Temperature with the In-Medium Similarity Renormalization Group}
-      \field{year}{July 26, 2023}
       \true{nocite}
     \endentry
   \enddatalist
