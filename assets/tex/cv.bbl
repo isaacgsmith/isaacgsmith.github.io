@@ -75,8 +75,8 @@
       \strng{namehash}{97ffcf5e7adb38cebbe6a054f31ab524}
       \strng{fullhash}{d119f1551d1802bc9487eaf57f3619c2}
       \strng{fullhashraw}{d119f1551d1802bc9487eaf57f3619c2}
-      \strng{bibnamehash}{97ffcf5e7adb38cebbe6a054f31ab524}
-      \strng{authorbibnamehash}{97ffcf5e7adb38cebbe6a054f31ab524}
+      \strng{bibnamehash}{d119f1551d1802bc9487eaf57f3619c2}
+      \strng{authorbibnamehash}{d119f1551d1802bc9487eaf57f3619c2}
       \strng{authornamehash}{97ffcf5e7adb38cebbe6a054f31ab524}
       \strng{authorfullhash}{d119f1551d1802bc9487eaf57f3619c2}
       \strng{authorfullhashraw}{d119f1551d1802bc9487eaf57f3619c2}
@@ -100,6 +100,7 @@
       \verb{url}
       \verb https://arxiv.org/abs/2504.17762
       \endverb
+      \annotation{part}{author}{default}{}{highlight}{0}{3}
     \endentry
     \entry{Smith_ftimsrg_2025}{article}{}{}
       \name{author}{3}{}{%
@@ -153,6 +154,7 @@
       \verb{url}
       \verb http://dx.doi.org/10.1103/PhysRevC.111.044318
       \endverb
+      \annotation{part}{author}{default}{}{highlight}{0}{1}
     \endentry
     \entry{Blondin_2022}{article}{}{}
       \name{author}{29}{}{%
@@ -308,8 +310,8 @@
       \strng{namehash}{7cbd1aa654da04c2236e055bad15f6e2}
       \strng{fullhash}{3bb090867a3ebf3dff006741d82164c9}
       \strng{fullhashraw}{3bb090867a3ebf3dff006741d82164c9}
-      \strng{bibnamehash}{7cbd1aa654da04c2236e055bad15f6e2}
-      \strng{authorbibnamehash}{7cbd1aa654da04c2236e055bad15f6e2}
+      \strng{bibnamehash}{3bb090867a3ebf3dff006741d82164c9}
+      \strng{authorbibnamehash}{3bb090867a3ebf3dff006741d82164c9}
       \strng{authornamehash}{7cbd1aa654da04c2236e055bad15f6e2}
       \strng{authorfullhash}{3bb090867a3ebf3dff006741d82164c9}
       \strng{authorfullhashraw}{3bb090867a3ebf3dff006741d82164c9}
@@ -337,6 +339,7 @@
       \verb{url}
       \verb http://dx.doi.org/10.1051/0004-6361/202244134
       \endverb
+      \annotation{part}{author}{default}{}{highlight}{0}{22}
     \endentry
   \enddatalist
 \endrefsection
