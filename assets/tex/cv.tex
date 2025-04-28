@@ -57,6 +57,70 @@
 %for publications
 \usepackage[style=authoryear, maxbibnames=4, uniquename=false, dashed=false, sorting=none]{biblatex}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{etoolbox}
+
+% Name format (bold Smith)
+\DeclareNameFormat{author}{%
+  \ifboolexpr{
+    test {\ifdefequal{\family}{Smith}}
+    and
+    (
+      test {\ifdefequal{\given}{Isaac G.}}
+      or
+      test {\ifdefequal{\given}{I. G.}}
+    )
+  }
+  {\textbf{\nameparts{#1}{#3}{#5}{#7}}}
+  {\nameparts{#1}{#3}{#5}{#7}}
+  \usebibmacro{name:andothers}
+}
+
+\newcommand{\nameparts}[4]{#1\ifthenelse{\boolean{bbx:giveninits}}{}{~#2}}
+
+% Author macro (truncate around Smith)
+\newtoggle{smithfound}
+\newcounter{smithpos}
+
+\renewbibmacro*{author}{%
+  \global\togglefalse{smithfound}%
+  \global\setcounter{smithpos}{0}%
+  \forlistloop{\checksmith}{\namepartlist{author}}%
+  \iftoggle{smithfound}
+    {%
+      \ifnumgreater{\value{listtotal}}{3}
+        {%
+          \ifnum\value{smithpos}=1
+            {\printnames[1]{author}\addspace et\addspace al\adddot}
+          \else\ifnum\value{smithpos}=2
+            {\printnames[2]{author}\addspace et\addspace al\adddot}
+          \else\ifnum\value{smithpos}=3
+            {\printnames[3]{author}\addspace et\addspace al\adddot}
+          \else
+            {\printnames[2]{author}\addcomma\space\ldots\addcomma\space\printname{author}{\value{smithpos}}\addspace et\addspace al\adddot}
+          \fi\fi\fi
+        }
+        {\printnames{author}}
+    }
+    {\printnames{author}}
+}
+
+\newcommand{\checksmith}[1]{%
+  \stepcounter{smithpos}%
+  \ifboolexpr{
+    test {\ifdefequal{\namepartfamily{#1}}{Smith}}
+    and
+    (
+      test {\ifdefequal{\namepartgiven{#1}}{Isaac G.}}
+      or
+      test {\ifdefequal{\namepartgiven{#1}}{I. G.}}
+    )
+  }
+  {\global\toggletrue{smithfound}}
+  {}%
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 %Setup hyperref package, and colours for links
 \usepackage[unicode, draft=false]{hyperref}
 \definecolor{linkcolour}{rgb}{0,0.2,0.6}
