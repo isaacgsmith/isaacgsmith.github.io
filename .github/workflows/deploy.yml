@@ -67,7 +67,7 @@ jobs:
           root_file: cv
           working_directory: ./assets/tex/
           args: -f -pdf -latexoption=-file-line-error -latexoption=-interaction=nonstopmode
-          extra_system_packages: texlive-bibtex-extra
+          extra_system_packages: texlive-full
         continue-on-error: true
       - name: Move and commit CV
         run: mv ./assets/tex/cv.pdf ./assets/pdf/cv.pdf && git add -A && git diff-index --quiet HEAD || git config --global user.email "smithis7@msu.edu" && git config --global user.name "Isaac Smith" && git commit -m "updating CV pdf" --author="Isaac Smith <smithis7@msu.edu>"
