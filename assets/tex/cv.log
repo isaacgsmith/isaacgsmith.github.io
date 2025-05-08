@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.5.8)  8 MAY 2025 16:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.5.8)  8 MAY 2025 19:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -526,9 +526,22 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 )
+
+/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty:16297: LaTeX Erro
+r: Key 'bpl/plnumbering' accepts only a fixed set of choices.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.16297 \blx@processoptions
+                           
+
+The key 'bpl/plnumbering' only accepts predefined values, and 'false' is not
+one of these.
+
+
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
-
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2025-01-18 L3 programming layer (loader) 
 
@@ -837,10 +850,10 @@ Package logreq Info: Writing requests to 'cv.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21737 strings out of 473197
- 398710 string characters out of 5718606
- 1261843 words of memory out of 5000000
- 44744 multiletter control sequences out of 15000+600000
+ 21739 strings out of 473197
+ 398741 string characters out of 5718606
+ 1262113 words of memory out of 5000000
+ 44746 multiletter control sequences out of 15000+600000
  564794 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,11n,81p,1195b,2471s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -854,10 +867,10 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on cv.pdf (2 pages, 167334 bytes).
+Output written on cv.pdf (2 pages, 167555 bytes).
 PDF statistics:
- 140 PDF objects out of 1000 (max. 8388607)
- 107 compressed objects within 2 object streams
+ 136 PDF objects out of 1000 (max. 8388607)
+ 103 compressed objects within 2 object streams
  16 named destinations out of 1000 (max. 500000)
  57 words of extra memory for PDF output out of 10000 (max. 10000000)
 
