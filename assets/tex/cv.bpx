@@ -3,7 +3,7 @@
 \csedef {bpl@itemnumber:Smith_ftimsrg_2025}{2}\csedef {bpl@itemsec:Smith_ftimsrg_2025}{1}
 \csedef {bpl@itemnumber:Blondin_2022}{3}\csedef {bpl@itemsec:Blondin_2022}{1}
 \csdef {bpl@items}{3}\csdef {bpl@secitems:1}{3}
-\csedef {bpl@itemnumber:imsrg}{4}\csedef {bpl@itemsec:imsrg}{2}
-\csedef {bpl@itemnumber:stardis}{5}\csedef {bpl@itemsec:stardis}{2}
-\csedef {bpl@itemnumber:documentation}{6}\csedef {bpl@itemsec:documentation}{2}
+\csedef {bpl@itemnumber:imsrg}{1}\csedef {bpl@itemsec:imsrg}{2}
+\csedef {bpl@itemnumber:stardis}{2}\csedef {bpl@itemsec:stardis}{2}
+\csedef {bpl@itemnumber:documentation}{3}\csedef {bpl@itemsec:documentation}{2}
 \csdef {bpl@items}{6}\csdef {bpl@secitems:2}{3}
