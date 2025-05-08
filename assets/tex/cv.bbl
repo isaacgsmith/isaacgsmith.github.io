@@ -72,22 +72,34 @@
            given={Christopher\bibnamedelima J.},
            giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
       }
-      \strng{namehash}{97ffcf5e7adb38cebbe6a054f31ab524}
+      \name{shortauthor}{1}{}{%
+        {{hash=b59c67bf196a4758191e42f76670ceba}{%
+           family={1111},
+           familyi={1\bibinitperiod}}}%
+      }
+      \strng{namehash}{b59c67bf196a4758191e42f76670ceba}
       \strng{fullhash}{d119f1551d1802bc9487eaf57f3619c2}
       \strng{fullhashraw}{d119f1551d1802bc9487eaf57f3619c2}
-      \strng{bibnamehash}{d119f1551d1802bc9487eaf57f3619c2}
-      \strng{authorbibnamehash}{d119f1551d1802bc9487eaf57f3619c2}
+      \strng{bibnamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{authorbibnamehash}{97ffcf5e7adb38cebbe6a054f31ab524}
       \strng{authornamehash}{97ffcf5e7adb38cebbe6a054f31ab524}
       \strng{authorfullhash}{d119f1551d1802bc9487eaf57f3619c2}
       \strng{authorfullhashraw}{d119f1551d1802bc9487eaf57f3619c2}
+      \strng{shortauthorbibnamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthornamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthorfullhash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthorfullhashraw}{b59c67bf196a4758191e42f76670ceba}
+      \field{extraname}{1}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \field{labelnamesource}{author}
+      \field{labelnamesource}{shortauthor}
       \field{labeltitlesource}{title}
       \field{eprintclass}{astro-ph.SR}
       \field{eprinttype}{arXiv}
+      \field{sortyear}{2025}
       \field{title}{Introducing STARDIS: An Open and Modular Stellar Spectral Synthesis Code}
       \field{year}{2025}
       \true{nocite}
@@ -120,27 +132,39 @@
            given={Scott\bibnamedelima K.},
            giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
       }
+      \name{shortauthor}{1}{}{%
+        {{hash=b59c67bf196a4758191e42f76670ceba}{%
+           family={1111},
+           familyi={1\bibinitperiod}}}%
+      }
       \list{publisher}{1}{%
         {American Physical Society (APS)}%
       }
-      \strng{namehash}{208a60284b260e33cc63fdaf2252df85}
+      \strng{namehash}{b59c67bf196a4758191e42f76670ceba}
       \strng{fullhash}{208a60284b260e33cc63fdaf2252df85}
       \strng{fullhashraw}{208a60284b260e33cc63fdaf2252df85}
-      \strng{bibnamehash}{208a60284b260e33cc63fdaf2252df85}
+      \strng{bibnamehash}{b59c67bf196a4758191e42f76670ceba}
       \strng{authorbibnamehash}{208a60284b260e33cc63fdaf2252df85}
       \strng{authornamehash}{208a60284b260e33cc63fdaf2252df85}
       \strng{authorfullhash}{208a60284b260e33cc63fdaf2252df85}
       \strng{authorfullhashraw}{208a60284b260e33cc63fdaf2252df85}
+      \strng{shortauthorbibnamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthornamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthorfullhash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthorfullhashraw}{b59c67bf196a4758191e42f76670ceba}
+      \field{extraname}{2}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \field{labelnamesource}{author}
+      \field{labelnamesource}{shortauthor}
       \field{labeltitlesource}{title}
       \field{issn}{2469-9993}
       \field{journaltitle}{Physical Review C}
       \field{month}{4}
       \field{number}{4}
+      \field{sortyear}{2025}
       \field{title}{In-medium similarity renormalization group at finite temperature}
       \field{volume}{111}
       \field{year}{2025}
@@ -304,26 +328,37 @@
            given={Nahliel},
            giveni={N\bibinitperiod}}}%
       }
+      \name{shortauthor}{1}{}{%
+        {{hash=b59c67bf196a4758191e42f76670ceba}{%
+           family={1111},
+           familyi={1\bibinitperiod}}}%
+      }
       \list{publisher}{1}{%
         {EDP Sciences}%
       }
-      \strng{namehash}{7cbd1aa654da04c2236e055bad15f6e2}
+      \strng{namehash}{b59c67bf196a4758191e42f76670ceba}
       \strng{fullhash}{3bb090867a3ebf3dff006741d82164c9}
       \strng{fullhashraw}{3bb090867a3ebf3dff006741d82164c9}
-      \strng{bibnamehash}{3bb090867a3ebf3dff006741d82164c9}
-      \strng{authorbibnamehash}{3bb090867a3ebf3dff006741d82164c9}
+      \strng{bibnamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{authorbibnamehash}{7cbd1aa654da04c2236e055bad15f6e2}
       \strng{authornamehash}{7cbd1aa654da04c2236e055bad15f6e2}
       \strng{authorfullhash}{3bb090867a3ebf3dff006741d82164c9}
       \strng{authorfullhashraw}{3bb090867a3ebf3dff006741d82164c9}
+      \strng{shortauthorbibnamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthornamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthorfullhash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthorfullhashraw}{b59c67bf196a4758191e42f76670ceba}
+      \field{extraname}{3}
       \field{sortinit}{4}
       \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \field{labelnamesource}{author}
+      \field{labelnamesource}{shortauthor}
       \field{labeltitlesource}{title}
       \field{issn}{1432-0746}
       \field{journaltitle}{Astronomy \& Astrophysics}
       \field{month}{12}
+      \field{sortyear}{2022}
       \field{title}{StaNdaRT: a repository of standardised test models and outputs for supernova radiative transfer}
       \field{volume}{668}
       \field{year}{2022}
@@ -354,25 +389,35 @@
            given={Isaac\bibnamedelima G.},
            giveni={I\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
       }
+      \name{shortauthor}{1}{}{%
+        {{hash=b59c67bf196a4758191e42f76670ceba}{%
+           family={1111},
+           familyi={1\bibinitperiod}}}%
+      }
       \list{location}{1}{%
         {East Lansing, MI}%
       }
-      \strng{namehash}{7e3d3bf557f8baeb8ec9688fea703246}
+      \strng{namehash}{b59c67bf196a4758191e42f76670ceba}
       \strng{fullhash}{7e3d3bf557f8baeb8ec9688fea703246}
       \strng{fullhashraw}{7e3d3bf557f8baeb8ec9688fea703246}
-      \strng{bibnamehash}{7e3d3bf557f8baeb8ec9688fea703246}
+      \strng{bibnamehash}{b59c67bf196a4758191e42f76670ceba}
       \strng{authorbibnamehash}{7e3d3bf557f8baeb8ec9688fea703246}
       \strng{authornamehash}{7e3d3bf557f8baeb8ec9688fea703246}
       \strng{authorfullhash}{7e3d3bf557f8baeb8ec9688fea703246}
       \strng{authorfullhashraw}{7e3d3bf557f8baeb8ec9688fea703246}
+      \strng{shortauthorbibnamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthornamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthorfullhash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthorfullhashraw}{b59c67bf196a4758191e42f76670ceba}
       \field{extraname}{1}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \field{labelnamesource}{author}
+      \field{labelnamesource}{shortauthor}
       \field{labeltitlesource}{title}
       \field{booktitle}{Mid-Michigan Symposium for Undergraduate Research}
+      \field{sortyear}{July 26, 2023}
       \field{title}{Studying Nuclei at Finite Temperature with the In-Medium Similarity Renormalization Group}
       \field{year}{July 26, 2023}
       \true{nocite}
@@ -386,25 +431,35 @@
            given={Isaac\bibnamedelima G.},
            giveni={I\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
       }
+      \name{shortauthor}{1}{}{%
+        {{hash=b59c67bf196a4758191e42f76670ceba}{%
+           family={1111},
+           familyi={1\bibinitperiod}}}%
+      }
       \list{location}{1}{%
         {East Lansing, MI}%
       }
-      \strng{namehash}{7e3d3bf557f8baeb8ec9688fea703246}
+      \strng{namehash}{b59c67bf196a4758191e42f76670ceba}
       \strng{fullhash}{7e3d3bf557f8baeb8ec9688fea703246}
       \strng{fullhashraw}{7e3d3bf557f8baeb8ec9688fea703246}
-      \strng{bibnamehash}{7e3d3bf557f8baeb8ec9688fea703246}
+      \strng{bibnamehash}{b59c67bf196a4758191e42f76670ceba}
       \strng{authorbibnamehash}{7e3d3bf557f8baeb8ec9688fea703246}
       \strng{authornamehash}{7e3d3bf557f8baeb8ec9688fea703246}
       \strng{authorfullhash}{7e3d3bf557f8baeb8ec9688fea703246}
       \strng{authorfullhashraw}{7e3d3bf557f8baeb8ec9688fea703246}
+      \strng{shortauthorbibnamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthornamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthorfullhash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthorfullhashraw}{b59c67bf196a4758191e42f76670ceba}
       \field{extraname}{2}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \field{labelnamesource}{author}
+      \field{labelnamesource}{shortauthor}
       \field{labeltitlesource}{title}
       \field{booktitle}{University Undergraduate Research and Arts Forum}
+      \field{sortyear}{April 14, 2023}
       \field{title}{A New Approach to Synthetic Stellar Spectra: The STARDIS Radiative Transfer Code}
       \field{year}{April 14, 2023}
       \true{nocite}
@@ -418,25 +473,35 @@
            given={Isaac\bibnamedelima G.},
            giveni={I\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
       }
+      \name{shortauthor}{1}{}{%
+        {{hash=b59c67bf196a4758191e42f76670ceba}{%
+           family={1111},
+           familyi={1\bibinitperiod}}}%
+      }
       \list{location}{1}{%
         {East Lansing, MI}%
       }
-      \strng{namehash}{7e3d3bf557f8baeb8ec9688fea703246}
+      \strng{namehash}{b59c67bf196a4758191e42f76670ceba}
       \strng{fullhash}{7e3d3bf557f8baeb8ec9688fea703246}
       \strng{fullhashraw}{7e3d3bf557f8baeb8ec9688fea703246}
-      \strng{bibnamehash}{7e3d3bf557f8baeb8ec9688fea703246}
+      \strng{bibnamehash}{b59c67bf196a4758191e42f76670ceba}
       \strng{authorbibnamehash}{7e3d3bf557f8baeb8ec9688fea703246}
       \strng{authornamehash}{7e3d3bf557f8baeb8ec9688fea703246}
       \strng{authorfullhash}{7e3d3bf557f8baeb8ec9688fea703246}
       \strng{authorfullhashraw}{7e3d3bf557f8baeb8ec9688fea703246}
+      \strng{shortauthorbibnamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthornamehash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthorfullhash}{b59c67bf196a4758191e42f76670ceba}
+      \strng{shortauthorfullhashraw}{b59c67bf196a4758191e42f76670ceba}
       \field{extraname}{3}
       \field{sortinit}{4}
       \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \field{labelnamesource}{author}
+      \field{labelnamesource}{shortauthor}
       \field{labeltitlesource}{title}
       \field{booktitle}{Mid-Michigan Symposium for Undergraduate Research}
+      \field{sortyear}{July 28, 2021}
       \field{title}{Interactive and User-Friendly Methods for Documenting Code}
       \field{year}{July 28, 2021}
       \true{nocite}

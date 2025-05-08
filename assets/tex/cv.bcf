@@ -96,15 +96,15 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>99</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>maxcitenames</bcf:key>
       <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
+      <bcf:key>maxcitenames</bcf:key>
+      <bcf:value>4</bcf:value>
+    </bcf:option>
+    <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>99</bcf:value>
+      <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -180,7 +180,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquelist</bcf:key>
-      <bcf:value>true</bcf:value>
+      <bcf:value>false</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquename</bcf:key>
@@ -331,15 +331,15 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>99</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>maxcitenames</bcf:key>
       <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
+      <bcf:key>maxcitenames</bcf:key>
+      <bcf:value>4</bcf:value>
+    </bcf:option>
+    <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>99</bcf:value>
+      <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -395,7 +395,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquelist</bcf:key>
-      <bcf:value>true</bcf:value>
+      <bcf:value>false</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquename</bcf:key>
@@ -637,6 +637,35 @@
     <bcf:option datatype="boolean">sortfirstinits</bcf:option>
     <bcf:option datatype="boolean">sortgiveninits</bcf:option>
     <bcf:option datatype="boolean">labelyear</bcf:option>
+    <bcf:option datatype="boolean">plauthorname</bcf:option>
+    <bcf:option datatype="boolean">plauthorfirstname</bcf:option>
+    <bcf:option datatype="boolean">plauthornameprefix</bcf:option>
+    <bcf:option datatype="boolean">plauthorfirstinit</bcf:option>
+    <bcf:option datatype="boolean">plauthorhandling</bcf:option>
+    <bcf:option datatype="boolean">nameorder</bcf:option>
+    <bcf:option datatype="boolean">plsorting</bcf:option>
+    <bcf:option datatype="boolean">annotations</bcf:option>
+    <bcf:option datatype="boolean">plnumbering</bcf:option>
+    <bcf:option datatype="boolean">marginyear</bcf:option>
+    <bcf:option datatype="boolean">hlyear</bcf:option>
+    <bcf:option datatype="boolean">fixyear</bcf:option>
+    <bcf:option datatype="boolean">pubstateextra</bcf:option>
+    <bcf:option datatype="boolean">jifinfo</bcf:option>
+    <bcf:option datatype="boolean">oainfo</bcf:option>
+    <bcf:option datatype="boolean">prinfo</bcf:option>
+    <bcf:option datatype="boolean">citinfo</bcf:option>
+    <bcf:option datatype="boolean">linktitles</bcf:option>
+    <bcf:option datatype="boolean">omitname</bcf:option>
+    <bcf:option datatype="boolean">omitfirstname</bcf:option>
+    <bcf:option datatype="boolean">omitnameprefix</bcf:option>
+    <bcf:option datatype="boolean">plnumbered</bcf:option>
+    <bcf:option datatype="boolean">reversenumbering</bcf:option>
+    <bcf:option datatype="boolean">boldyear</bcf:option>
+    <bcf:option datatype="boolean">linktitleall</bcf:option>
+    <bcf:option datatype="boolean">linktitleurl</bcf:option>
+    <bcf:option datatype="boolean">linktitledoi</bcf:option>
+    <bcf:option datatype="boolean">linktitleisbn</bcf:option>
+    <bcf:option datatype="boolean">linktitleissn</bcf:option>
     <bcf:option datatype="boolean">isbn</bcf:option>
     <bcf:option datatype="boolean">url</bcf:option>
     <bcf:option datatype="boolean">doi</bcf:option>
@@ -875,6 +904,41 @@
   </bcf:datafieldset>
   <!-- SOURCEMAP -->
   <bcf:sourcemap>
+    <bcf:maps datatype="bibtex" level="style">
+      <bcf:map>
+        <bcf:map_step map_field_source="shortauthor"/>
+        <bcf:map_step map_field_set="namea" map_origfieldval="1"/>
+      </bcf:map>
+      <bcf:map map_overwrite="1">
+        <bcf:map_step map_field_set="shortauthor" map_field_value="1111"/>
+      </bcf:map>
+    </bcf:maps>
+    <bcf:maps datatype="bibtex" level="style">
+      <bcf:map>
+        <bcf:map_step map_field_source="year" map_final="1"/>
+        <bcf:map_step map_field_set="sortyear" map_origfieldval="1"/>
+      </bcf:map>
+      <bcf:map>
+        <bcf:map_step map_field_source="pubstate" map_match="prepublished" map_final="1"/>
+        <bcf:map_step map_field_set="sortyear" map_field_value="2222"/>
+      </bcf:map>
+      <bcf:map>
+        <bcf:map_step map_field_source="pubstate" map_match="forthcoming" map_final="1"/>
+        <bcf:map_step map_field_set="sortyear" map_field_value="3333"/>
+      </bcf:map>
+      <bcf:map>
+        <bcf:map_step map_field_source="pubstate" map_match="inpress" map_final="1"/>
+        <bcf:map_step map_field_set="sortyear" map_field_value="4444"/>
+      </bcf:map>
+      <bcf:map>
+        <bcf:map_step map_field_source="pubstate" map_match="submitted" map_final="1"/>
+        <bcf:map_step map_field_set="sortyear" map_field_value="5555"/>
+      </bcf:map>
+      <bcf:map>
+        <bcf:map_step map_field_source="pubstate" map_match="inpreparation" map_final="1"/>
+        <bcf:map_step map_field_set="sortyear" map_field_value="6666"/>
+      </bcf:map>
+    </bcf:maps>
     <bcf:maps datatype="bibtex" level="driver">
       <bcf:map>
         <bcf:map_step map_field_set="day" map_null="1"/>
@@ -1352,6 +1416,10 @@
       <bcf:field fieldtype="field" format="xsv" datatype="option" skip_output="true">relatedoptions</bcf:field>
       <bcf:field fieldtype="field" datatype="range">pages</bcf:field>
       <bcf:field fieldtype="field" datatype="code">execute</bcf:field>
+      <bcf:field fieldtype="field" datatype="literal">citations</bcf:field>
+      <bcf:field fieldtype="field" datatype="literal">impactfactor</bcf:field>
+      <bcf:field fieldtype="field" datatype="literal">openaccess</bcf:field>
+      <bcf:field fieldtype="field" datatype="literal">peerreview</bcf:field>
     </bcf:fields>
     <bcf:entryfields>
       <bcf:field>abstract</bcf:field>
@@ -2114,6 +2182,12 @@
       <bcf:field>titleaddon</bcf:field>
       <bcf:field>type</bcf:field>
       <bcf:field>venue</bcf:field>
+    </bcf:entryfields>
+    <bcf:entryfields>
+      <bcf:field>citations</bcf:field>
+      <bcf:field>impactfactor</bcf:field>
+      <bcf:field>openaccess</bcf:field>
+      <bcf:field>peerreview</bcf:field>
     </bcf:entryfields>
     <bcf:multiscriptfields>
       <bcf:field>abstract</bcf:field>
