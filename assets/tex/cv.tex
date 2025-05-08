@@ -55,19 +55,20 @@
 \titlespacing{\section}{0pt}{10pt}{10pt}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage[style=authoryear, backend=biber, maxbibnames=99, uniquename=false, dashed=false, sorting=none]{biblatex}
+\usepackage[style=publist, backend=biber, maxbibnames=3, uniquename=false, dashed=false, plauthorhandling=highlight, plsorting=none, hlyear=false, linktitles=all]{biblatex}
+\plauthorname[Isaac G.][]{Smith}
 
-\usepackage{xpatch}
+% \usepackage{xpatch}
 
-\renewcommand*{\mkbibnamegiven}[1]{
-\ifitemannotation{highlight}
-{\textbf{#1}}
-{#1}}
+% \renewcommand*{\mkbibnamegiven}[1]{
+% \ifitemannotation{highlight}
+% {\textbf{#1}}
+% {#1}}
 
-\renewcommand*{\mkbibnamefamily}[1]{
-\ifitemannotation{highlight}
-{\textbf{#1}}
-{#1}}
+% \renewcommand*{\mkbibnamefamily}[1]{
+% \ifitemannotation{highlight}
+% {\textbf{#1}}
+% {#1}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %Setup hyperref package, and colours for links
