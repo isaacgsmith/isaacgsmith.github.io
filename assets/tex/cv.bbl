@@ -112,7 +112,6 @@
       \verb{url}
       \verb https://arxiv.org/abs/2504.17762
       \endverb
-      \annotation{item}{author}{default}{3}{}{0}{highlight}
     \endentry
     \entry{Smith_ftimsrg_2025}{article}{}{}
       \name{author}{3}{}{%
@@ -178,7 +177,6 @@
       \verb{url}
       \verb http://dx.doi.org/10.1103/PhysRevC.111.044318
       \endverb
-      \annotation{item}{author}{default}{1}{}{0}{highlight}
     \endentry
     \entry{Blondin_2022}{article}{}{}
       \name{author}{29}{}{%
@@ -374,7 +372,6 @@
       \verb{url}
       \verb http://dx.doi.org/10.1051/0004-6361/202244134
       \endverb
-      \annotation{item}{author}{default}{22}{}{0}{highlight}
     \endentry
   \enddatalist
 \endrefsection
