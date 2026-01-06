@@ -1,5 +1,5 @@
 % biblatex-publist auxiliary file: count of items for reverse numbering and stats
-\csedef {bpl@itemnumber:shields2025introducingstardisopenmodular}{1}\csedef {bpl@itemsec:shields2025introducingstardisopenmodular}{1}
+\csedef {bpl@itemnumber:2025ApJ...990...41S}{1}\csedef {bpl@itemsec:2025ApJ...990...41S}{1}
 \csedef {bpl@itemnumber:Smith_ftimsrg_2025}{2}\csedef {bpl@itemsec:Smith_ftimsrg_2025}{1}
 \csedef {bpl@itemnumber:Blondin_2022}{3}\csedef {bpl@itemsec:Blondin_2022}{1}
 \csdef {bpl@items}{3}\csdef {bpl@secitems:1}{3}

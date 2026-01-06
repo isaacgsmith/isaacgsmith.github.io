@@ -19,7 +19,7 @@
 
 \refsection{1}
   \datalist[entry]{none/global//global/global/global}
-    \entry{shields2025introducingstardisopenmodular}{misc}{}{}
+    \entry{2025ApJ...990...41S}{article}{}{}
       \name{author}{10}{}{%
         {{hash=2b280879b6b74229f59460ddedb85e8e}{%
            family={Shields},
@@ -51,11 +51,11 @@
            familyi={G\bibinitperiod},
            given={Ryan},
            giveni={R\bibinitperiod}}}%
-        {{hash=d5182a222597e98980d52049d11aee03}{%
+        {{hash=cf3428dd89a69b925e4d877d9cc238ac}{%
            family={Fullard},
            familyi={F\bibinitperiod},
-           given={Andrew},
-           giveni={A\bibinitperiod}}}%
+           given={Andrew\bibnamedelima G.},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
         {{hash=206ac5b6d14ff91c296d3967ddb4d189}{%
            family={Singhal},
            familyi={S\bibinitperiod},
@@ -78,13 +78,13 @@
            familyi={1\bibinitperiod}}}%
       }
       \strng{namehash}{b59c67bf196a4758191e42f76670ceba}
-      \strng{fullhash}{d119f1551d1802bc9487eaf57f3619c2}
-      \strng{fullhashraw}{d119f1551d1802bc9487eaf57f3619c2}
+      \strng{fullhash}{5799e40aa56051e08b2b6c07ffcab432}
+      \strng{fullhashraw}{5799e40aa56051e08b2b6c07ffcab432}
       \strng{bibnamehash}{b59c67bf196a4758191e42f76670ceba}
       \strng{authorbibnamehash}{432c1a48a3761e3f17124d4be2d2d2aa}
       \strng{authornamehash}{432c1a48a3761e3f17124d4be2d2d2aa}
-      \strng{authorfullhash}{d119f1551d1802bc9487eaf57f3619c2}
-      \strng{authorfullhashraw}{d119f1551d1802bc9487eaf57f3619c2}
+      \strng{authorfullhash}{5799e40aa56051e08b2b6c07ffcab432}
+      \strng{authorfullhashraw}{5799e40aa56051e08b2b6c07ffcab432}
       \strng{shortauthorbibnamehash}{b59c67bf196a4758191e42f76670ceba}
       \strng{shortauthornamehash}{b59c67bf196a4758191e42f76670ceba}
       \strng{shortauthorfullhash}{b59c67bf196a4758191e42f76670ceba}
@@ -97,21 +97,19 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{shortauthor}
       \field{labeltitlesource}{title}
-      \field{eprintclass}{astro-ph.SR}
-      \field{eprinttype}{arXiv}
+      \field{month}{9}
+      \field{number}{1}
       \field{sortyear}{2025}
-      \field{title}{Introducing STARDIS: An Open and Modular Stellar Spectral Synthesis Code}
+      \field{title}{Introducing {{STARDIS}}: {{An}} Open and Modular Stellar Spectral Synthesis Code}
+      \field{volume}{990}
       \field{year}{2025}
       \true{nocite}
-      \verb{eprint}
-      \verb 2504.17762
+      \field{pages}{41}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3847/1538-4357/adee11
       \endverb
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/2504.17762
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/2504.17762
-      \endverb
+      \keyw{1000,1577,1857,1967,2053,2082,224,519,558,878,Astronomical simulations,Chemical abundances,Dwarf stars,F stars,G stars,Instrumentation and Methods for Astrophysics,K stars,Main sequence stars,Radiative transfer simulations,Solar and Stellar Astrophysics,Spectral line lists,Stellar abundances}
     \endentry
     \entry{Smith_ftimsrg_2025}{article}{}{}
       \name{author}{3}{}{%
@@ -164,18 +162,12 @@
       \field{month}{4}
       \field{number}{4}
       \field{sortyear}{2025}
-      \field{title}{In-medium similarity renormalization group at finite temperature}
+      \field{title}{In-Medium Similarity Renormalization Group at Finite Temperature}
       \field{volume}{111}
       \field{year}{2025}
       \true{nocite}
       \verb{doi}
       \verb 10.1103/physrevc.111.044318
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1103/PhysRevC.111.044318
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1103/PhysRevC.111.044318
       \endverb
     \endentry
     \entry{Blondin_2022}{article}{}{}
@@ -250,8 +242,8 @@
            familyi={K\bibinitperiod},
            given={Alexandra},
            giveni={A\bibinitperiod}}}%
-        {{hash=3e494a7f50d389b8c0ab9f9eaf927ef4}{%
-           family={O’Brien},
+        {{hash=bcbba9a4d81cdb032f75f0daf7a4cd75}{%
+           family={O'Brien},
            familyi={O\bibinitperiod},
            given={Jack},
            giveni={J\bibinitperiod}}}%
@@ -335,13 +327,13 @@
         {EDP Sciences}%
       }
       \strng{namehash}{b59c67bf196a4758191e42f76670ceba}
-      \strng{fullhash}{3bb090867a3ebf3dff006741d82164c9}
-      \strng{fullhashraw}{3bb090867a3ebf3dff006741d82164c9}
+      \strng{fullhash}{e84d6f9f5de7c74a8c5646e86b57a22b}
+      \strng{fullhashraw}{e84d6f9f5de7c74a8c5646e86b57a22b}
       \strng{bibnamehash}{b59c67bf196a4758191e42f76670ceba}
       \strng{authorbibnamehash}{6831492a573fd67153f9b6d46452b8ca}
       \strng{authornamehash}{6831492a573fd67153f9b6d46452b8ca}
-      \strng{authorfullhash}{3bb090867a3ebf3dff006741d82164c9}
-      \strng{authorfullhashraw}{3bb090867a3ebf3dff006741d82164c9}
+      \strng{authorfullhash}{e84d6f9f5de7c74a8c5646e86b57a22b}
+      \strng{authorfullhashraw}{e84d6f9f5de7c74a8c5646e86b57a22b}
       \strng{shortauthorbibnamehash}{b59c67bf196a4758191e42f76670ceba}
       \strng{shortauthornamehash}{b59c67bf196a4758191e42f76670ceba}
       \strng{shortauthorfullhash}{b59c67bf196a4758191e42f76670ceba}
@@ -357,7 +349,7 @@
       \field{journaltitle}{Astronomy \& Astrophysics}
       \field{month}{12}
       \field{sortyear}{2022}
-      \field{title}{StaNdaRT: a repository of standardised test models and outputs for supernova radiative transfer}
+      \field{title}{{{StaNdaRT}}: A Repository of Standardised Test Models and Outputs for Supernova Radiative Transfer}
       \field{volume}{668}
       \field{year}{2022}
       \true{nocite}
@@ -365,12 +357,6 @@
       \range{pages}{-1}
       \verb{doi}
       \verb 10.1051/0004-6361/202244134
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1051/0004-6361/202244134
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1051/0004-6361/202244134
       \endverb
     \endentry
   \enddatalist
